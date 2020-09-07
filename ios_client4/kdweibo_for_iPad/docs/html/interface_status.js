@@ -1,0 +1,27 @@
+var interface_status =
+[
+    [ "StatusesFromApiDict:inContext:", "interface_status.html#a3ead04188c3005e63e3e93ab30955b23", null ],
+    [ "StatusFromApiDict:inContext:", "interface_status.html#a54d9a06394096f5ce51e7f35a89ff229", null ],
+    [ "author", "interface_status.html#ac43056ac27e465c01b7cdb7aaa0c7b0d", null ],
+    [ "created_at", "interface_status.html#a556a7a311f4b31fcc7f3ea0133a15adc", null ],
+    [ "extra_appurl", "interface_status.html#a5cb68b978e44c6a8be092f618b2a4db9", null ],
+    [ "extra_id", "interface_status.html#a5f6666b0175e286a9cfd1ce77001014b", null ],
+    [ "extra_refid", "interface_status.html#a8b3d558e8faec1efb3b8747e0465c158", null ],
+    [ "extra_tenantid", "interface_status.html#ae5abf68dfd86e726908bbcfaadefdf5e", null ],
+    [ "extra_type", "interface_status.html#ad85c5412a2c3d5173fb6e47157b33252", null ],
+    [ "group_id", "interface_status.html#abe80dafdb591d8dffb02077fd6c1d88e", null ],
+    [ "group_name", "interface_status.html#a366270e864d6f92e973003d30fed421e", null ],
+    [ "id_", "interface_status.html#a3b2432cec941377018b9b90e4ce83641", null ],
+    [ "in_reply_to_screen_name", "interface_status.html#a11618f4d9921b2777f8af45a3748b72c", null ],
+    [ "in_reply_to_status_id", "interface_status.html#aa01494d2ba7e45c8150b6e75835c5048", null ],
+    [ "in_reply_to_user_id", "interface_status.html#ac9ba3dfb4407a500f055b4f48f13a701", null ],
+    [ "is_favourited", "interface_status.html#ab5dabdb9bd9364d7c68b14b698fa7e15", null ],
+    [ "is_truncated", "interface_status.html#a1b3e21e3d11e4164c815e4d575385988", null ],
+    [ "latitude", "interface_status.html#aa2419d580308b4ea2aeaf351bb946c37", null ],
+    [ "longitude", "interface_status.html#a399c27b2e3d9b22fdba58d63c8766770", null ],
+    [ "reply_count", "interface_status.html#a4eca06cb68d688bd2d3255c379f8a613", null ],
+    [ "retweeted_status", "interface_status.html#af192e6868e5c2f9c0c2c59310efccb1c", null ],
+    [ "source", "interface_status.html#a40d28c55287bbf4370311237cef382a6", null ],
+    [ "text", "interface_status.html#a13681a276eb2026144f0de67bb3e21fd", null ],
+    [ "update_at", "interface_status.html#aff689c07eefac67745bba881a778a187", null ]
+];

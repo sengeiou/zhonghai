@@ -1,0 +1,57 @@
+//
+// Prefix header for all source files of the 'TwitterFon' target in the 'TwitterFon' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <UIKit/UIKit.h>
+    #import "KDStyle.h"
+    #import "KDCommon.h"
+    #import "CommenMethod.h"
+    #import "KDSession.h"
+    #import "KDWeiboAppDelegate.h"
+    #import "KDTabBarController.h"
+    #import "KDNavigationManager.h"
+    #import "UIImage+Additions.h"
+    #import "KDUIUtils.h"
+    #import "KDUtility.h"
+    #import "KDCache.h"
+    #import "NSString+Additions.h"
+    #import "KDEventAnalysis.h"
+
+    #import "BOSPublicConfig.h"
+    #import "BOSLogger.h"
+    #import "KDInputView.h"
+    #import "XTUtils.h"
+    #import "KDVFL.h"
+    #import "UIDevice+Additions.h"
+    #import "NSObject+KDLoading.h"
+    #define MAS_SHORTHAND
+    #import "Masonry.h"
+    #import "KDCacheHelper.h"
+    #import "UIViewController+NavigationStyle.h"
+    #import "KDApplicationOpenHelper.h"
+    #import "AFNetworking.h"
+    #import "KDReachabilityManager.h"
+    #import "kdweibo-Swift.h"
+    #import "NSString+DZCategory.h"
+    #import "NSDate+DZCategory.h"
+    #import "KDUserDefaults.h"
+    #import "KDPublicAccountCache.h"
+    #import "KDAdsManager.h"
+    #import "UIButton+KDV6.h"
+    #import "KDNotificationChannelCenter.h"
+    #import "RTRootNavigationController.h"
+    #import "UIImageView+Mask.h"
+    #import "KDCustomTransition.h"
+    #import "FLAnimatedImage.h"
+    #import "FLAnimatedImageView.h"
+    #import "KDUserDefaults.h"
+    #import "KDUserDefaultsKeys.h"
+    #import "KDV8Cell.h"
+    #import "UIAlertView+AlertVCExtension.h"
+    #import "UIActionSheet+AlertVCExtension.h"
+#endif
+
+
+#define KD_TABLEVIEW_FOOTERVIEW_HEIGHT  80.0f

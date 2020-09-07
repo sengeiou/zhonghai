@@ -1,0 +1,11 @@
+iOS开发/发布证书：
+1）Provisioning Profiles 开发/发布各一
+2）Certificates.p12 开发/发布各一，文件含导入密码；
+3）推送证书.p12 开发/发布各一，文件含导入密码；
+
+AppID 为 com.$company.kdweibo.client 
+
+测试设备UUID，添加到developer.apple.com
+kd1:  15a8b89708c530466a092c52c246b05c19f7bde5
+kd2:  437e34f43db7f940bb4acbcc7eec9fc74f75ea66
+kd3:  f058f2997279b5e4c529c80d2dca4f13901c9ea9

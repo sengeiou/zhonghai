@@ -1,0 +1,13 @@
+{
+	"version":"4.3.0",
+	"buildNo":"999",
+    
+	"fileUrl":"itms-services://?action=download-manifest&url=https://erpcloud.kingdee.com/msbu.plist",
+	"commentUrl":"itms-apps://ax.itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=595672427",
+	"updatePolicy":"1",
+    "forceUpdateNo":"1000",
+	"desc":"客户端有版本更新",
+	"changes":[ "1.增加问题跟踪功能；",
+		    "2.微博功能优化；"
+               ]
+}

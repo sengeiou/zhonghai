@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'TestCommon' target in the 'TestCommon' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif

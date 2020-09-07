@@ -1,0 +1,56 @@
+
+//---------------------第三方应用调用云之家移动端实现单点登录示例代码------------------------------
+
+//--------------Android------------------
+
+	/**
+	 * 打开云之家客户端实现免输入用户名密码的Basic登录。
+	 * 传递参数：userName,password 
+	 * @return 成功：会注销已登录的用户，并使用授权码指定的用户登录；失败：弹出相应的提示，并支持回掉到第三方调用页面
+	 * 
+	 * @since 2.2.0
+	 * @author winters_huang@kingdee.com
+	 */
+	public void callKdweiboApplictionUseBasicAuth(){
+    	String packageName =  "com.kdweibo.client";
+    	Intent intent=new Intent(); 
+    	intent.putExtra("url_encode", "true");    //指定参数是否用了编码，编码格UrlEncode(UTF-8)，默认为false
+    	intent.putExtra("auth", "true");          //是否需要登录，默认为false，如果传true，则先注销原有授权再重新登录，不能实现数据缓存
+    	intent.putExtra("source", "microsoft");   //云之家客户端根据此来源实现专有逻辑，如无约定则使用默认逻辑；
+    	intent.putExtra("user_name", "username"); //Basic 认证的用户名（单点登录必须）
+    	intent.putExtra("password", "password");  //Basic 认证的密码 （企业级授权无需此参数）
+    	intent.putExtra("third_token", "third_token");  //企业级授权码，（企业级授权必须）
+    	intent.putExtra("package_name", "com.ms.demo"); //登录失败回调页面的包名
+   	  intent.putExtra("home_activity", ".HiWorkActivity"); //登录失败回调页面
+
+	
+    	intent.setComponent(new ComponentName(packageName, packageName+".activities.ACT_Start")); //云之家的包名和首个Acitivity，通过它打开隐藏的云之家应用
+        startActivity(intent);
+    }
+    
+    
+//--------------iPhone------------------ 
+
+	/**
+	 * 打开云之家客户端实现免输入用户名密码的Basic登录。
+	 * 参数说明：见Android，
+	 * 特别说明：参数的编码格式为UrlEncode(UTF-8)
+	 * @return 成功：会注销已登录的用户，并使用授权码指定的用户登录；失败：弹出相应的提示，并支持回掉到第三方调用页面
+	 * 
+	 * @since 2.2.0
+	 * @author winters_huang@kingdee.com
+	 */
+-
+        NSString *path = [NSString stringWithFormat:@"kdweibo://auth?source=microsoft&user_name=%@&password=%@&third_token=%@&callback=%@", userName, password, third_token];
+       
+        NSURL *url = [NSURL URLWithString:path];
+        if ([[UIApplication sharedApplication] canOpenURL:url]) {
+            [[UIApplication sharedApplication] openURL:url];
+            
+        } else {
+       		// 增加错误处理 类似下面
+           // NSString *message = [NSString stringWithFormat:@"暂无应用可打开 %@", path];
+           // [self showAlertWithTitle:@"\n" message:message];
+        }
+    }
+} 

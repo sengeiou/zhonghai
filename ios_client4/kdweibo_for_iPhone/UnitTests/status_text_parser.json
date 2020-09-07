@@ -1,0 +1,100 @@
+[
+ {
+ "indent":"valid username",
+ "desc":"normal text to parse username",
+ "text":"dota @sheehan dota",
+ "expectType":"array",
+ "expected":["@sheehan"]
+ },
+ {
+ "indent":"valid username",
+ "desc":"test email, check if email address parse to a username",
+ "text":"@jiandong_lai, his email is jiandong_lai@mail.kingdee.com",
+ "expectType":"array",
+ "expected":["@jiandong_lai"]
+ },
+ {
+ "indent":"valid username",
+ "desc":"test digit username",
+ "text":"哈哈，@12345667",
+ "expectType":"array",
+ "expected":["@12345667"]
+ },
+ {
+ "indent":"valid username",
+ "desc":"tes username with '._'",
+ "text":"哈哈, @kuikui.shen @kuikui_shen",
+ "expectType":"array",
+ "expected":["@kuikui.shen","@kuikui_shen"]
+ },
+ {
+ "indent":"valide username",
+ "desc":"test username with chinese and digit",
+ "text":"@里游览1 ddddddfasdf",
+ "expectType":"array",
+ "expected":["@里游览1"]
+ },
+ {
+ "indent":"valid hash tag",
+ "desc":"normal text to parse hash tag",
+ "text":"#测试小组# 有bug赶紧测啊",
+ "expecteType":"array",
+ "expected":["#测试小组#"]
+ },
+ {
+ "indent":"valid hash tag",
+ "desc":"test C# language",
+ "text":"#C#学习# 有什么好的C#资料分享吗？",
+ "expectType":"array",
+ "expected":["#C#学习#"]
+ },
+ {
+ "indent":"valid hash tag",
+ "desc":"test hash tag with white space",
+ "text":"大家来看看讨论讨论这个话题 # 什么话题？ #",
+ "expectType":"array",
+ "expected":["# 什么话题？ #"]
+ },
+ {
+ "indent":"valid hash tag",
+ "desc":"test more than one hash tag",
+ "text":"#云之家学习#，#走正道,行王道#",
+ "expectType":"array",
+ "expected":["#云之家学习#","#走正道,行王道#"]
+ },
+ {
+ "indent":"valid url",
+ "desc":"normal url test",
+ "text":"哈哈,赶紧去这个网站看看 www.baidu.com",
+ "expectType":"array",
+ "expected":["www.baidu.com"]
+ },
+ {
+ "indent":"valid url",
+ "desc":"several type url test",
+ "text":"google address : www.google.com,www.google.com.hk,www.google.com.tw,https://mail.google.com",
+ "expectType":"array",
+ "expected":["www.google.com","www.google.com.hk","www.google.com.tw","https://mail.google.com"]
+ },
+ {
+ "indent":"valid url",
+ "desc":"url: protocal + domain",
+ "text":"http://example.com",
+ "expectType":"array",
+ "expected":["http://example.com"]
+ },
+ {
+ "indent":"valid url",
+ "desc":"url: ssl + domain +path +query",
+ "text":"https://example.com/path/to/resource?search=foo&lang=en",
+ "expectType":"array",
+ "expected":["https://example.com/path/to/resource?search=foo&lang=en"]
+ },
+ {
+ "indent":"valid url",
+ "desc":"url: ssl + domain +path +query",
+ "text":"访问下这个网址192.168.221.221",
+ "expectType":"array",
+ "expected":["192.168.221.221"]
+ },
+ ]

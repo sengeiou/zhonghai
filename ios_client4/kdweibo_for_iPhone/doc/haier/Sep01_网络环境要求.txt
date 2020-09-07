@@ -1,0 +1,17 @@
+1）iOS
+  Apple 推送需要开放以下端口，请确保 push.war 所在的服务器可以访问Apple的2195，2196端口；
+  telnet gateway.push.apple.com 2195
+  telnet gateway.sandbox.push.apple.com 2195
+
+  telnet feedback.push.apple.com 2196
+  telnet feedback.sandbox.push.apple.com 2196
+
+2）Android 推送需要对公网开放端口 5222，并提供直接访问的公网IP地址。
+
+3）版本更新检查
+  https://ip:port/res/client/android/android.json 
+  https://ip:port/res/client/iphone/iphone.json
+  
+4) 外网需访问到的war应用
+  https://ip:port/snsapi/
+  https://ip:port/microblog/ 静态资源，如图片

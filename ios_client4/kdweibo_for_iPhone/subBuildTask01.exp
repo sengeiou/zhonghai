@@ -1,0 +1,14 @@
+#!/usr/bin/expect
+   
+set src_file [lindex $argv 0]  
+set dest_file [lindex $argv 1]  
+set user "root"  
+set host "192.168.1.221"  
+set password "kingdee\$2012"  
+set timeout -1  
+
+spawn scp  -o StrictHostKeyChecking=no $src_file $user@$host:$dest_file
+expect "*assword:*"
+  
+send "$password\r" 
+expect eof  

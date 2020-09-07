@@ -1,0 +1,21 @@
+1 数据库 »  ossDev »  T_AppleApplicationKey
+ 
+ Update 2 recore:
+ 
+ {
+  "appId": "50eb91573d6e3a149262ad7f",
+  "keyPassword": "haier",
+  "keyResourcePath": "\/WEB-INF\/aps_sandbox_4HaierEnterpriseClient.p12",
+  "product": false
+}
+
+{
+  "appId": "50eb91573d6e3a149262ad7f",
+  "keyPassword": "haier",
+  "keyResourcePath": "\/WEB-INF\/aps_production2_4HaierEnterpriseClient.p12",
+  "product": true
+}
+
+2 将附件的2个.p12 文件拷贝到 push.war/WEB-INF 目录
+
+3 重启 push.war 完成

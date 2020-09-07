@@ -1,0 +1,2555 @@
+/*
+ ASLocalized.strings
+ kdweibo
+ 
+ Created by wenjie_lee on 16/3/31.
+ Copyright © 2016年 www.kingdee.com. All rights reserved.
+ */
+
+"DATALOAD_FAIL_PLZ_RETRY" = "Loading data failed,please try it after checking network.";
+"NO_DATA_PUBLICK" = "No Data";
+
+"KDChatManagerViewController_admin_tip1" = "Administrator  %lu/5";
+"KDChatManagerViewController_admin_tip2" = "Administrator %lu/5）";
+"KDChatManagerViewController_add_admin" = "Add administrator";
+"KDChatManagerViewController_max_limit" = "Member already fulfilled";
+"KDChatManagerViewController_min_limit" = "Need at least 1 group manager";//Need at least 1 group manager
+"KDChatManagerViewController_tips1" = "Once deleted%@can not exceed administrator rights";
+"KDChatManagerViewController_tips2" = "non-activated or being removed person can not be added as administrator ";
+"KDChatManagerViewController_add" = "Adding administrator";
+"KDChatManagerViewController_delete" = "Deleting administrator";
+"KDChatManagerViewController_tips3" = "%@has been added to administrator list";
+"KDChatManagerViewController_NonNetwork" = "Internet error, unable to get department members' information";
+
+//7.0.5
+"KDMultiVoiceViewController_invite"="invitation has been sent, please wait for join";
+"XTChooseContentViewController_title"="Will send meeting invitaion to%@";
+"XTChooseContentViewController_msg"="All the meeting members will join the group";
+"XTChooseContentViewController_totalNum"=" %@ is waiting %lu members";
+"XTChateViewController_agoraVoice"="voice meeting can only called from group chat!";
+"KDMessageRemoteSettingViewController_message_noti_2"="Message Notification";
+
+"KDImageAlertView_tip"="Touch to edit the photo";
+"KKCutTool_rotate"="Rotate";
+"KKCutTool_restore"="Restore";
+"KKCutTool_cut"="Cut";
+"KDImageEditorViewController_cancel"="Are you sure want to exit this edit?";
+
+// 7.0.4
+"BubbleTableViewCell_Tip_20"="Ignore";
+"BubbleTableViewCell_Tip_25"="Ignore all";
+"XTChatDetailViewController_close"="Open notifications";
+"XTChatDetailViewController_open"="Mute notifications";
+// 7.0.3
+
+"Manager_Group"="Group Management";
+
+
+"XTChatDetailViewController_dissolve_group"="Dissolve group";
+"XTChatDetailViewController_dissolve_group_tip"="All the files and chat history will be deleted after dissolving the group";
+"XTChatViewController_group_dissolved"="Already exited the group...";
+"Group_dissolved"="Session not exist";
+
+"Notice"="Notice";//Notice
+"Notice_Group"="Group Notice";
+"Notice_New_Tip"="[New Notice]";
+"Notice_Quick_Create"="Fast create";
+"Notice_Delete_Confirm"="Are you sure wanna delete this notice?";
+"Notice_Create_Succ"="Send successfully";
+"Notice_Create_Fail"="Send failed";
+"Notice_More"="More notices";
+"Notice_No_And_Create"="  No notice, clict to create";
+"Notice_No"="  No group notice";
+"Notice_Title"="Title(4 to 40 letters)";
+"Notice_Content"="Text(15 to 500 letters)";
+"Notice_Edit"="Edit Notice";
+"Notice_Publish"="Send";
+"Notice_Input_Title"="Please input title";
+"Notice_Title_Less"="Too little letters for title";
+"Notice_Title_More"="Too many letters for title";
+"Notice_Input_Content"="Please input text";
+"Notice_Content_Less"="Too little letters for text";
+"Notice_Content_More"="Too many letters for text";
+"Notice_Detail"="Notice details";
+"Notice_Introduction"="Group notice direction";
+"Notice_Intro1"="Can send important notifications or rules of the group";
+"Notice_Intro2"="New notice will inform group members immediately";
+"Notice_Intro3"="The content of notice will be saved permanently, can be checked any time.";
+"Notice_Create"="New";
+
+"TODO_msg_no_exit"="The message has been canceled";
+
+// 7.0.2
+"KDSignatureViewController_title"="Please sign";
+"KDSignatureViewController_save_fail"="fail to save sign information to server";
+"KDSignatureViewController_authorized_fail"="Register authorization information error!";
+"KDSignatureViewController_non_network"="Can not connect to Internet, please try again later.";
+"KDSignatureViewController_invalid_value"="Please sign before save";
+"XTChatUnreadCollectionView_MsgNotify"="SMS notification";
+
+"XTChatViewController_speech_countdown"="%ld seconds left to speak";
+"XTChatDetailViewController_group_QR"="Group QR code";
+
+"NO_Privilege"="No permission";
+"XTTimelineViewController_Msg_Notconnect"="messages(unconnected)";
+
+"KDForward_New_Chat"="New chat";
+"KDForward_Recent_Chat"="Recent chat";
+"KDForward_Radio"="Radio";
+"KDForward_Multiple"="Multiple";
+"KDForward_Select"="Select";
+"KDForward_Tips_AndSoOn"="";
+"KDForward_Tips_Complete"="Complete";
+
+//6.0.5
+"Scan_QRCode"="Extract QR code";
+"Forward_Combine_Tips"="or the selected messages,sticker,chat history and failed sending messages can not forward to friends, continue?";
+"Forward_Combine_Tips_None"="No suitable messages can be forwarded.";
+"Forward_Combine_Tips_UnSupport"="Single message can not be merged and forwarded";
+
+"Remove"="Delete";//Delete
+"Delete_File_Confirm"="Once deleted, any one can not check the file, are you sure to delete?";
+
+"Agora_Waiting_ForOther"="Waiting for other members to join";
+"Agora_Open_Host"="initiator open host mode";
+"Agora_Close_Host"="initiator shutdown host mode";
+"Agora_Host_CloseYourMic"="initiator close your microphone";
+"Agora_Host_OpenYourMic"="initiator open your microphone";
+"Agora_HandUp"="%@rise hand, apply for speaking";
+"Agora_HandDown"="initiator%@closed your microphone  ";
+"Agora_Quit_Meeting"="Unable to connect the Internet, you have already exited the meeting";
+"Agora_Quit_Meeting_1"="%@ have exited the meeting";
+"Agora_Quit_Meeting_2"="Exit the meeting";
+"Agora_Quit_Meeting_Over"="End the meeting";
+"Agora_Quit_Meeting_Over_Sure"="Are you sure to end the meeting??";
+"Agora_Quit_Meeting_Sure"="Are you sure to exit the meeting?";
+"Agora_Quit_Meeting_over_or_Quit"="Are you sure to exit or end the meeting??";
+"Agora_Quit_Meeting_Mic_Open"="microphone opened, can not rise hand.";
+"Agora_Quit_Meeting_HandUp_Success"="Successfully rise hand";
+"Agora_Quit_Meeting_HandUp_Cancel"="Canceled ";
+"Agora_Quit_Meeting_Mic_Closed"="microphone closed";
+"Agora_Quit_Meeting_Mic_Opened"="microphone opened";
+"Agora_Quit_Meeting_Speaker_Closed"="Speaker closed";
+"Agora_Quit_Meeting_Speaker_Opened"="Speaker opened";
+"Agora_Host_Model"="HOST MODE";
+"Agora_Share_PPT"="Share PPT";
+
+"Video_Invalid"="The video does not exist or has been deleted";
+
+"KDLocationOptionViewController_do_not_find_location"="Can not find the location, use photo to sign in";//Can not find the location, use photo to sign in
+"KDOutDoorSignInViewController_title"="outside work sign in ";
+"KDOutDoorSignInViewController_CUSTOMER_VISIT"="Customer visit ";
+"KDOutDoorSignInViewController_LOOK_STORE"="Store visit";
+"KDOutDoorSignInViewController_matter"="Choose the outside work items to create";
+"KDOutDoorSignInViewController_setting_camera"="No right to open camera, please change in settings-privacy-camera";
+"KDOutDoorSignInViewController_mark_message"="%@ %@ %@sign";
+"KDPhotoSignInPhtoCell_size_byte"="The size is:%lld byte";
+"KDPhotoSignInPhtoCell_size_KB"="The size is:%.2f KB";
+"KDPhotoSignInPhtoCell_size_M"="The size is:%.2f M";
+"KDPhotoSignInContentCell_mark"="visit customer--...";
+
+//6.0.4
+"open_light"="Open light";
+"close_light"="Close light";
+
+"KDChangePasswordVC_Change_Pwd"="Change Password";
+"KDChangePasswordVC_Old_Pwd_Nil"="Original password can not be empty";
+"KDChangePasswordVC_New_Pwd_Nil"="New password can not be empty";
+"KDChangePasswordVC_Confirm_Pwd_Nil"="Confirm password can not be empty";
+"KDChangePasswordVC_Pwd_Different"="password do not match";
+"KDChangePasswordVC_Pwd_Change_Success"="Success!";
+"KDChangePasswordVC_Login_Account"="Your account number is : %@";
+"KDChangePasswordVC_Old_Pwd"="Please input original password ";
+"KDChangePasswordVC_New_Pwd"="Please input new password";
+"KDChangePasswordVC_Confirm_Pwd"="Confirm new password";
+
+"XTQRScanViewController_Open_Url"="Do you want to open this link?";
+"XTQRScanViewController_QR_Info"="QR code information";
+"XTQRScanViewController_NoFind_QR"="Can not find QR code";
+
+
+//6.0.3
+"Giveup_Video"="Are you sure to give up this video??";
+"Global_Rerecord"="Try again";
+"SavePhoto_Success"="save to album successfully";
+"Marked"="Marked";
+"Mark_tip"="Alert";
+"Mark_delete"="Delete";
+"Mark_Congratulations"="Congratulations,the things marked are done";
+"Mark_check"="Check";
+"Mark_setAlert"="Alert";
+"Mark_Unmark"="Unmark";
+"Mark_Jump"="Jump to the group's position";
+"Mark_mark"="Mark";
+"Mark_later"="Later today";
+"Mark_laterr"="Later";
+"Mark_selectDate"="Select date and time";
+"Mark_setsuccess"="Set up successfully";
+"Mark_gotocalendar"="Check in phone calendar";
+"Mark_viewcheck"="View now";
+//"Mark_Unmark"="Unmark";
+//"Mark_Unmark"="Unmark";
+"Mark_longPress"="1.Long press the message to mark";
+"Mark_touchMark"="2.A click on the marking button leads to success";
+
+"SavePhoto"="Save";
+"Copy"="Copy";
+"KDDMChatInputView_tak_shortVideo"="Sight";
+"Short_video"="[Sight]";
+
+
+
+//6.0.2
+"KDSocialsShareManager_Msg_NoImgShareSuport"="Your phone's type do not support sending messages";
+"KDPwdConfirmViewController_alertView_message_confirm" = " Password is invalid, Please re-enter";
+
+//*******************************************************************
+"Global_Done"="Done";
+"Global_Sure"="Confirm";
+"Global_Cancel"="Cancel";
+"Global_GoBack"="Back";
+"Global_Send"="Send";
+"Global_Work"="Work";
+"Multilanguage"="Language";
+"VERSION"="Version";
+"KDTodo_Notification"="Notice";
+"CHECK_NEW_VERSION" ="Your version is up to date";
+"FREQUENT_CONTACTS" ="Frequent contacts";
+"Data_Fail_Retry"="Data load fail,please retry.";
+"ContainMember" ="Member include:";
+"Chat_Group" ="Chat group";
+"Current_LastestVersion"="Current is the latest version";
+"No_Data_Refresh"="No posts available,Swipe down to refresh";
+"NO_Data_up_Refresh" = "No posts available,Swipe down to refresh";
+"TRENDS_WEEKLY" = "Topics";
+"Forward"="Forward: %d";
+"Reply"="Reply: %d";
+"FAVORITES_CREATED_SUCCESS" = "Successful";
+"FAVORITES_DESTORYED_SUCCESS" = "Successful";
+"APP_SEARCH_PLACEHOLDER" = "Search name of application";
+"UpdateTime"="Recent update time:%@";
+"UpdateTime_Never"="Recent update time: never";
+"Search_you_can" ="You can search";
+"Search_you_can_session" ="Session";
+"Search_you_can_session_records" ="Records";
+"Release_refresh"="Release to refresh…";
+"PullDown_refresh"="Pull down refresh…";
+"NO_DATA_TASK_DISSCUSS"="No Data!";
+"NO_DATA_TASK_DISSCUSS_ToDo" = "No Data!";
+"SEARCH_NO_MATCHED_USER"="No relevant users found";
+"MENTION_NETWORK_CONTACTS"="WebContacts";
+"KDApplicationViewController_tips"="You have been set by the administrator as a [%@] spokesman,and all the messages you send  to %@ will be forwarded to all users who are concerned about [%@].";
+"IMPORT_TRENDS" = "Import Topic";
+"SEARCH_ON_NETWORK" = "Searching through the network";
+"Check_for_original"="Original";
+"Check_for_original_size"="Original (%@)";
+"FAVORITES_CREATED_FAIL" = "Collected fail,please retry!";
+"TRENDS_CREATE_OR_FILTER_BY" = "New or search topic";
+"KD_STATUS_DETAIL_VIEW_CONFIRM" = "Confirm";
+"DM_AUDIO_RESEND" = "resend";
+"Chat_send_file"="Files";
+"EMPTY" = "Clear";
+"LOADING_FORWARDS" = "Loading and forward";
+"LOADING_COMMENTS" = "Loading comments";
+"FAVORITES_FAVORITED_YET" = "You have already collected the micro-blog.";
+"Wb_From"="From %@";
+"Recommend_scan"="     Scan QR code to download and install";
+"Recommend_QR"="Note: Link must be opened in a web browser to be downloaded.";
+//
+/*ChatBubbleView.m*/
+"ChatBubbleView_tips_1"="Share pictures";
+//
+/*DirectMessageCell.m*/
+"DirectMessageCell_btn_1"="Unstick";
+"DirectMessageCell_btn_2"="Stick to top";
+//
+/*DirectMessageCellView.m*/
+"DirectMessageCellView_tips_1"="Voice sending failed";
+"DirectMessageCellView_tips_2"="Voice sending";
+"DirectMessageCellView_tips_3"="image sending failed";
+"DirectMessageCellView_tips_4"="image sending ";
+"DirectMessageCellView_tips_5"="location sending failed";
+"DirectMessageCellView_tips_6"="location sending";
+"DirectMessageCellView_tips_7"="Content sending failed";
+"DirectMessageCellView_tips_8"="Content sending";
+"DirectMessageCellView_tips_9"="Send success";
+//
+/*DMPostController.m*/
+"DMPostController_Tip_1"="Send E-mail";
+"DMPostController_Tip_2"="Cancel";
+"DMPostController_Tip_3"="Sending";
+//
+/*DraftTableViewCell.m*/
+"DraftTableViewCell_tips_1"="Groups";
+"DraftTableViewCell_tips_2"="MicroBlog";
+"DraftTableViewCell_tips_3"="Forward MicroBlog";
+"DraftTableViewCell_tips_4"="Reply";
+"DraftTableViewCell_tips_5"="From Group";
+//
+/*FriendsTimelineController.m*/
+"FriendsTimelineController_tips_1"="Return";
+"FriendsTimelineController_tips_2"="Content sending failed, saved as draft";
+"FriendsTimelineController_tips_3"="this MicroBlog is deleted";
+"FriendsTimelineController_tips_4"="%dnewsfeeds";
+//
+/*FriendsTimelineDataSource.m*/
+"FriendsTimelineDataSource_tips_1"="Confirm";
+//
+/*GroupInfoViewController.m*/
+"GroupInfoViewController_tips_1"="Announcement";
+"GroupInfoViewController_tips_2"="Group menbers";
+//
+/*GroupViewController.m*/
+"GroupViewController_tips_1"="Groups";
+//
+/*IssuleViewController.m*/
+"IssuleViewController_tips_1"="Feedback";
+"IssuleViewController_tips_2"="iPhone customer feedback";
+"IssuleViewController_tips_3"="Tips";
+"IssuleViewController_tips_4"="Thank you for your opinions!";
+"IssuleViewController_tips_5"="Confirm";
+//
+/*KDABActionTabBar.m*/
+//"KDABActionTabBar_tips_1"="Favorites";
+//"KDABActionTabBar_tips_2"="Save";
+//"KDABActionTabBar_tips_3"="Send";
+//
+/*KDAboutViewController.m*/
+"KDAboutViewController_tips_1"="About";
+"KDAboutViewController_tips_2"="Make working easier";
+"KDAboutViewController_tips_3"="%@Terns and Conditions";
+"KDAboutViewController_tips_4"="View introduction";
+//
+/*KDABPersonDetailsViewController.m*/
+"KDABPersonDetailsViewController_tips_1"="Send message";
+"KDABPersonDetailsViewController_tips_2"="Call";
+"KDABPersonDetailsViewController_tips_3"="Unfavorite";
+"KDABPersonDetailsViewController_tips_4"="Save";
+"KDABPersonDetailsViewController_cancel"="Unfavorite";
+"KDABPersonDetailsViewController_fav_suc"="Successful collection";
+"KDABPersonDetailsViewController_unfav_suc"="Successfully cancel the collection";
+//
+/*DraftTableViewCell.m*/
+"DraftTableViewCell_tips_1"="Groups";
+"DraftTableViewCell_tips_2"="MicroBlog";
+"DraftTableViewCell_tips_3"="Forward MicroBlog";
+"DraftTableViewCell_tips_4"="Reply";
+"DraftTableViewCell_tips_5"="From Group";
+//
+/*FriendsTimelineController.m*/
+"FriendsTimelineController_tips_1"="Return";
+"FriendsTimelineController_tips_2"="Content sending failed, saved as draft";
+"FriendsTimelineController_tips_3"="this MicroBlog is deleted";
+"FriendsTimelineController_tips_4"="%dnewsfeeds";
+//
+/*FriendsTimelineDataSource.m*/
+"FriendsTimelineDataSource_tips_1"="Confirm";
+//
+/*GroupInfoViewController.m*/
+"GroupInfoViewController_tips_1"="Announcement";
+"GroupInfoViewController_tips_2"="Group menbers";
+//
+//
+/*IssuleViewController.m*/
+"IssuleViewController_tips_1"="Feedback";
+"IssuleViewController_tips_2"="iPhone customer feedback";
+"IssuleViewController_tips_3"="Tips";
+"IssuleViewController_tips_4"="Thank you for your opinions!";
+"IssuleViewController_tips_5"="Confirm";
+//
+/*KDABActionTabBar.m*/
+"KDABActionTabBar_tips_1"="Favorite";
+"KDABActionTabBar_tips_2"="Save";
+"KDABActionTabBar_tips_3"="Send";
+//
+/*KDAboutViewController.m*/
+"KDAboutViewController_tips_1"="About";
+"KDAboutViewController_tips_2"="Make working easier";
+"KDAboutViewController_tips_3"="%@Terns and Conditions";
+"KDAboutViewController_tips_4"="View introduction";
+//
+/*KDABPersonDetailsViewController.m*/
+//"KDABPersonDetailsViewController_tips_1"="Send message";
+//"KDABPersonDetailsViewController_tips_2"="Call";
+//"KDABPersonDetailsViewController_tips_3"="Unfavorite";
+//"KDABPersonDetailsViewController_tips_4"="Save";
+//
+/*KDAddOrUpdateSignInPointController.m*/
+"KDAddOrUpdateSignInPointController_tips_1"="Edit";
+"KDAddOrUpdateSignInPointController_tips_2"="Create";
+"KDAddOrUpdateSignInPointController_tips_3"="Remarks";
+"KDAddOrUpdateSignInPointController_tips_4"="Deviation";
+"KDAddOrUpdateSignInPointController_tips_5"="%ID m";
+"KDAddOrUpdateSignInPointController_tips_6"="200 M";
+"KDAddOrUpdateSignInPointController_tips_7"="Morning checkin must be before morning working get off checkin  ";
+"KDAddOrUpdateSignInPointController_tips_8"="Morning working get off checkin must be before afternoon working checkin ";
+"KDAddOrUpdateSignInPointController_tips_9"="Afternoon checkin must be before afternoon working get off checkin  ";
+"KDAddOrUpdateSignInPointController_tips_10"="Get location";
+"KDAddOrUpdateSignInPointController_tips_11"="Delete";
+"KDAddOrUpdateSignInPointController_tips_12"="Location";
+"KDAddOrUpdateSignInPointController_tips_13"="Get on time/ get off time";
+"KDAddOrUpdateSignInPointController_tips_14"="Connect WIFI";
+"KDAddOrUpdateSignInPointController_tips_15"="After the deletion of the registration point, the office location of the registration will be regarded as the field, to determine the need to delete it";
+"KDAddOrUpdateSignInPointController_tips_16"="Confirm";
+"KDAddOrUpdateSignInPointController_tips_17"="Please select WIFI network";
+"KDAddOrUpdateSignInPointController_tips_18"="Deleting⋯⋯";
+"KDAddOrUpdateSignInPointController_tips_19"="Deleting checkin point successful";
+"KDAddOrUpdateSignInPointController_tips_20"="Deleting checkin point failed";
+"KDAddOrUpdateSignInPointController_tips_21"="Adding checkin point, please select working location";
+"KDAddOrUpdateSignInPointController_tips_22"="For Check in,the starting time can't later than the closing time ";
+"KDAddOrUpdateSignInPointController_tips_23"="For Get-off,The closing time can't later than the starting time";
+"KDAddOrUpdateSignInPointController_tips_24"="For Get-off,The starting time can't later than the closing  time";
+"KDAddOrUpdateSignInPointController_tips_25"="Sending";
+"KDAddOrUpdateSignInPointController_tips_26"="Success";
+"KDAddOrUpdateSignInPointController_tips_27"="Send failed";
+"KDAddOrUpdateSignInPointController_tips_28"="Checkin point set";
+"KDAddOrUpdateSignInPointController_tips_29"="Saved successfully";
+"KDAddOrUpdateSignInPointController_tips_30"="Failed to add checkin point";
+"KDAddOrUpdateSignInPointController_tips_31"="Failed to amend checkin point information";
+"KDAddOrUpdateSignInPointController_tips_32"="Done";
+"KDAddOrUpdateSignInPointController_tips_33"="Record";
+"KDAddOrUpdateSignInPointController_tips_34"="Turning on locaion service \"allow %@\" access your location";
+"KDAddOrUpdateSignInPointController_tips_35"="Failed to use location service";
+"KDAddOrUpdateSignInPointController_tips_36"="Networking error, please checking network setting";
+"KDAddOrUpdateSignInPointController_tips_37"="Reason:%@\n error message:%@";
+"KDAddOrUpdateSignInPointController_tips_38"="Due to weak network connection, location access failed, please try in different location";
+"KDAddOrUpdateSignInPointController_tips_39"="Try again";
+"KDAddOrUpdateSignInPointController_tips_40"="Locating";
+"KDAddOrUpdateSignInPointController_tips_41"="Orientation failure";
+"KDAddOrUpdateSignInPointController_tips_42"="Failed to access location around";
+"KDAddOrUpdateSignInPointController_tips_43"="My location";
+"KDAddOrUpdateSignInPointController_tips_44"="No network";
+"KDAddOrUpdateSignInPointController_tips_45"="WIFI network";
+"KDAddOrUpdateSignInPointController_tips_46"="Mobile network";
+"KDAddOrUpdateSignInPointController_tips_47"="Connecting WIFI";
+"KDAddOrUpdateSignInPointController_tips_48"="Adding checkin point";
+"KDAddOrUpdateSignInPointController_tips_49"="Amending checkin point";
+"KDAddOrUpdateSignInPointController_tips_50"="Sending";
+"KDAddOrUpdateSignInPointController_tips_51"="%.2f hour";
+//
+/*KDAppDetailViewController.m*/
+"KDAppDetailViewController_detail"="Application details";
+"KDAppDetailViewController_add"="Add";
+"KDAppDetailViewController_introduce"="Detail introduction";
+"KDAppDetailViewController_added"="Added";
+"KDAppDetailViewController_tips_add"="Add @@@@ with internet";
+"KDAppDetailViewController_network_fail"="No internet connection";
+//
+/*KDApplicationQueryAppsHelper.m*/
+"KDApplicationQueryAppsHelper_sign"="Attendance";
+"KDApplicationQueryAppsHelper_task"="Task";
+"KDApplicationQueryAppsHelper_file"="Files";
+"KDApplicationQueryAppsHelper_blog"="Blog";
+"KDApplicationQueryAppsHelper_scan"="Scan";
+"KDApplicationQueryAppsHelper_add_fail"="Add failed";
+"KDApplicationQueryAppsHelper_tips"="Prompt";
+"KDApplicationQueryAppsHelper_tips_conversatin"="you are having conference call, Do you want to quit and join new conference";
+"KDApplicationQueryAppsHelper_yes"="No";
+"KDApplicationQueryAppsHelper_no"="Yes";
+//
+/*KDApplicationTableViewCell.m*/
+"KDApplicationTableViewCell_check"="View ";
+"KDApplicationTableViewCell_open"="Open";
+//
+/*KDApplicationViewController.m*/
+"KDApplicationViewController_public"="Public Account";
+"KDApplicationViewController_file_assistant"="Document assistance";
+"KDApplicationViewController_app"="Apps";
+"KDApplicationViewController_tips_i_know"="I know";
+"KDApplicationViewController_add"="Add";
+"KDApplicationViewController_add_fail"="Failed to add application";
+"KDApplicationViewController_tips_warn"="Tips";
+"KDApplicationViewController_cannot_del"="Default system cant be deleted";
+"KDApplicationViewController_del_fail"="Delete failed";
+"KDApplicationViewController_recommend"="Recommended applications";
+"KDApplicationViewController_updating"="Loading";
+"KDApplicationViewController_none"="No";
+"KDApplicationViewController_lightapp"="Light app";
+"KDApplicationViewController_un_support_scan"="cant support scan function";
+"KDApplicationViewController_scan"="Please scan QR code/Barcode";
+"KDApplicationViewController_cannot_camera"="Cant access camera, please change setting ";
+"KDApplicationViewController_loading_file_ass"="Loading document assistance";
+"KDApplicationViewController_tips_1"="Alert";
+"KDApplicationViewController_network_error"="Network problem, please check network connection";
+"KDApplicationViewController_protcol"="Tranfer Agreement:%@";
+"KDApplicationViewController_uninstall"="Application havnt installed, do you want to install";
+"KDApplicationViewController_link_error"="Incorrect download link, please try other application";
+"KDApplicationViewController_un_publish"="This application is not in appl store, please try other application.";
+"KDApplicationViewController_yihubaiying"="Ad hoc conference";
+"KDApplicationViewController_loading_resource"="Loading material";
+//
+/*KDApplyingTeamCell.m*/
+"KDApplyingTeamCell_cancel_apply"="Cancel applicant";
+"KDApplyingTeamCell_cancel_audit"="Approving";
+//
+/*KDAppSerachViewController.m*/
+"KDAppSerachViewController_appstore"="Application center";
+"KDAppSerachViewController_company_app"="Enterprise Apps";
+"KDAppSerachViewController_yun_app"="Cloud Apps";
+"KDAppSerachViewController_all"="All";
+"KDAppSerachViewController_loading_avaiable_app"="Loading avaliable application";
+"KDAppSerachViewController_loading_all_app"="Loading all application";
+//
+/*KDAppTutorialsViewController.m*/
+"KDAppTutorialsViewController_share"="Sare new version via MicroBlog";
+//
+/*KDAttachmentMenuCell.m*/
+"KDAttachmentMenuCell_del"="Delete";
+//
+/*KDAuthViewController.m*/
+"KDAuthViewController_login_with_account"="Username/Phone number";
+"KDAuthViewController_email"="Email";
+"KDAuthViewController_psw"="Enter password";
+"KDAuthViewController_login"="Login";
+"KDAuthViewController_next_step"="Next";
+"KDAuthViewController_forget_psw"="Forgot password?";
+"KDAuthViewController_change_account"="Change account";
+"KDAuthViewController_tips_logo"="Cloud Hub, easily connect all the work";
+"KDAuthViewController_login_with_mobilephone"="Login using mobile number";
+"KDAuthViewController_login_with_other"="Other login method";
+"KDAuthViewController_login_with_many"="Use login account/Mobile/Email login";
+"KDAuthViewController_psw"="Password";
+"KDAuthViewController_tips_forget_psw"="Forget password, please contact administrator for reset";
+"KDAuthViewController_check_email"="Password reset link is sent to your email, please check";
+"KDAuthViewController_input_psw"="Please enter password";
+"KDAuthViewController_input_account"="Please enter login account";
+"KDAuthViewController_tips_send_sms"="Verification is sent to the following mobile:";
+"KDAuthViewController_comfirm_mobilephone"="Confirm mobile number";
+"KDAuthViewController_ok"="OK";
+"KDAuthViewController_tips_account"="This login account";
+"KDAuthViewController_tips_un_import"="Cant enter to system, please contact administrator or re-enter";
+"KDAuthViewController_tips_un_import2"="The account is not imported into the system, please contact your system administrator or re-enter";
+"KDAuthViewController_comfirm_account2"="Confirm login account";
+"KDAuthViewController_tips_mobilephone"="This mobile";
+"KDAuthViewController_need_create_com"="No working field, do you want to create one";
+"KDAuthViewController_return_fail"="error in return";
+"KDAuthViewController_upgrate"="Upgrade";
+"KDAuthViewController_leave_msg"="Contact administrator";
+"KDAuthViewController_wait_examine"="Please wait approval from administrator";
+"KDAuthViewController_company_empty"="Enterprise field must be filled";
+"KDAuthViewController_invite"="Invite you to join";
+//
+/*KDAutoSignInLinkWifiController.m*/
+"KDAutoSignInLinkWifiController_sign_point"="Checkin point";
+"KDAutoSignInLinkWifiController_wifi"="available WIFI ";
+"KDAutoSignInLinkWifiController_connecting"="Connecting WIFI";
+"KDAutoSignInLinkWifiController_connect_suc"="Successful to connect WIFI with checkin point";
+"KDAutoSignInLinkWifiController_connect_fail"="Failed to connect WIFI";
+//
+/*KDAvatarSettingViewController.m*/
+"KDAvatarSettingViewController_avatar"="Profile picture";
+"KDAvatarSettingViewController_upload_photo"="Upload photo";
+//
+/*KDBaseInvitationViewController.m*/
+"KDBaseInvitationViewController_get_link_fail"="Failed to access invitation link, please return to last page by clicking confirm";
+//
+/*KDBindEmailViewController.m*/
+"KDBindEmailViewController_bind_email"="Tie %@Email account";
+"KDBindEmailViewController_email"="%@ Email account";
+"KDBindEmailViewController_psw"="%@password";
+"KDBindEmailViewController_submit"="Submit";
+"KDBindEmailViewController_enter"="Enter";
+"KDBindEmailViewController_tips_giveup_email"="Do you want to quit email login with %@ and enter directly to %@";
+"KDBindEmailViewController_tips_input_email"="Please enter %@ email login account";
+"KDBindEmailViewController_tips_input_psw"="Please enter @ password";
+//
+/*KDCheckBoxAlertView2.m*/
+"KDCheckBoxAlertView2_never_prompt"="Do not show next time";
+//
+//KDChooseDepartmentViewController.m
+"KDChooseDepartmentViewController_choise_apartment"="Division choice";
+"KDChooseDepartmentViewController_loading"="Loading";
+"KDChooseDepartmentViewController_choose"="Selected: %@";
+//
+/*KDCleanDataViewController.m*/
+"KDCleanDataViewController_photo"="Pictures";
+"KDCleanDataViewController_file"="Documents";
+"KDCleanDataViewController_voice"="Voices";
+"KDCleanDataViewController_video"="Videos";
+"KDCleanDataViewController_clean_memory"="Clean storage";
+"KDCleanDataViewController_all"="Select all";
+"KDCleanDataViewController_del"="Delete";
+"KDCleanDataViewController_cancel_all"="Cancel select all";
+"KDCleanDataViewController_can_release"="Release memory %@";
+//
+/*KDCodeConfirmViewController.m*/
+"KDCodeConfirmViewController_input_code"="Enter verification code";
+"KDCodeConfirmViewController_tips_cannot_receive_code"="Can't receive verification number";
+"KDCodeConfirmViewController_tips_send_msg"="Sending verification message to %@";
+"KDCodeConfirmViewController_tips_verify"="Verifing";
+"KDCodeConfirmViewController_get_num_fail"="Failed to access attribute code";
+"KDCodeConfirmViewController_tips_retry"="Message verification failed, please retry";
+"KDCodeConfirmViewController_tips_send_suc"="Verification code is sent to ";
+"KDCodeConfirmViewController_tips_input_code"="Please enter the verification code";
+"KDCodeConfirmViewController_resend"="Resending";
+"KDCodeConfirmViewController_tips_agree"="I have read and agreed ";
+"KDCodeConfirmViewController_tips_protcol"="Usage condition and private policy";
+"KDCodeConfirmViewController_tips_sec"="%d second";
+"KDCodeConfirmViewController_click_resend"="Resend verification code";
+"KDCodeConfirmViewController_verify_suc"="Message verification successful";
+//
+/*KDCommentUploadTask.m*/
+"KDCommentUploadTask_sending"="Reply sending";
+"KDCommentUploadTask_send_suc"="Reply sending failed, saved as draft";
+"KDCommentUploadTask_send_fail"="Reply sent successful";
+//
+/*KDCompanyChoseViewController.m*/
+"KDCompanyChoseViewController_choice_com"="Select work field";
+"KDCompanyChoseViewController_complete"="Completed";
+"KDCompanyChoseViewController_tips_choice_com"="Please select Working field";
+"KDCompanyChoseViewController_tips_1"="You can login to your working field now";
+"KDCompanyChoseViewController_tips_2"="Waiting for approval from administrator ";
+//
+/*KDCreateAndJoinTeamCell.m*/
+"KDCreateAndJoinTeamCell_tips_1"="You can add company or add exisiting company";
+"KDCreateAndJoinTeamCell_regis"="Registered company";
+"KDCreateAndJoinTeamCell_join"="Joined company";
+//
+/*KDCreateTaskViewController.m*/
+"KDCreateTaskViewController_lastday"="Last day";
+"KDCreateTaskViewController_today"="Today";
+"KDCreateTaskViewController_none"="No";
+"KDCreateTaskViewController_private"="Secret";
+"KDCreateTaskViewController_content"="Task content";
+"KDCreateTaskViewController_create"="Create";
+"KDCreateTaskViewController_tips_empty"="Content cannot be empty";
+"KDCreateTaskViewController_tips_over"="Content too long";
+"KDCreateTaskViewController_choice_member"="Please select actioner";
+"KDCreateTaskViewController_choice_share"="Please select shared district";
+"KDCreateTaskViewController_choice_date"="Please select deadline";
+"KDCreateTaskViewController_tips_create_suc"="Task creation successful";
+"KDCreateTaskViewController_tips_min"="3 minutes ";
+"KDCreateTaskViewController_tips_create_fail"="Failed to create task: Cant re create the same task in 3 minutes";
+"KDCreateTaskViewController_un_join"="Havnt joined ";
+"KDCreateTaskViewController_end_time"="Deadline";
+"KDCreateTaskViewController_share_scope"="Share to";
+"KDCreateTaskViewController_warn_me"="Remind me";
+"KDCreateTaskViewController_choice_member2"="Select executor(s)";
+"KDCreateTaskViewController_content2"="Mission content";
+"KDCreateTaskViewController_member"="Executor";
+//
+/*KDCreateTeamViewController.m*/
+"KDCreateTeamViewController_create_com"="Create team";
+"KDCreateTeamViewController_com_name"="Team name (up to 16 Chinese characters or 40 letters)";
+"KDCreateTeamViewController_tips_only"="If the team is already created,please invite others to join.";
+"KDCreateTeamViewController_com_name2"="Working field";
+"KDCreateTeamViewController_com_name3"="Name";
+"KDCreateTeamViewController_tips_create_suc"="Congratulations, work field created successfully. You are assigned to work field administrator, right now to invite your colleagues to join the work field. ";
+"KDCreateTeamViewController_tips_name_over"="Name of working field is too long, maximum is 16 chinese character or 40 alphabet";
+"KDCreateTeamViewController_create_new_com"="Create new working field";
+"KDCreateTeamViewController_tips_create_fail"="This account cant create working field, you must create new working field in 5@web or login via mobile number";
+"KDCreateTeamViewController_bind_mobile"="Binding mobile number";
+"KDCreateTeamViewController_tips_un_bind"="You have not tied with mobile, you can use after linking with mobile";
+"KDCreateTeamViewController_input_name"="Please enter your name";
+"KDCreateTeamViewController_input_name2"="Please enter working field";
+"KDCreateTeamViewController_tips_count"="%d people";
+//
+/*KDDefaultViewControllerContext.m*/
+"KDDefaultViewControllerContext_create_task"="Create a task";
+"KDDefaultViewControllerContext_userid_empty"="No user id";
+"KDDefaultViewControllerContext_del_weibo"="Cancel";
+"KDDefaultViewControllerContext_reason"="Reporting reson";
+"KDDefaultViewControllerContext_trends"="NewsFeed";
+"KDDefaultViewControllerContext_weibo_share"="MicroBlog share";
+"KDDefaultViewControllerContext_check_weibo"="%@'s MicroBlog, please click and check";
+"KDDefaultViewControllerContext_tips1"="Suggest to update to %@ wall";
+"KDDefaultViewControllerContext_tips2"="Suggested updated";
+"KDDefaultViewControllerContext_tips3"="Mandatory update for continuous usage";
+"KDDefaultViewControllerContext_tips4"="Mandatory update for continuous usage";
+"KDDefaultViewControllerContext_reply"="Reply %@'s comment:%@";
+"KDDefaultViewControllerContext_choice"="Please select";
+"KDDefaultViewControllerContext_weibo_null"="News has been deleted or does not exist";
+"KDDefaultViewControllerContext_to_task"="Change to a task";
+"KDDefaultViewControllerContext_report"="Report";
+"KDDefaultViewControllerContext_refresh"="Refresh";
+"KDDefaultViewControllerContext_share_conversation"="Share to conversation";
+//
+/*KDDiscoveryViewController.m*/
+"KDDiscoveryViewController_replu"="Comments";
+"KDDiscoveryViewController_topic"="Topics";
+"KDDiscoveryViewController_leader_talk"="boss's lecture";
+"KDDiscoveryViewController_radar"="Wisdom radar";
+"KDDiscoveryViewController_discovery"="Discover";
+"KDDiscoveryViewController_boss"="Boss's lecture";
+//
+/*KDDMChatInputView.m*/
+"KDDMChatInputView_tips"="You can send voice note, location or emotion in message!";
+"KDDMChatInputView_tak_photo"="Camera";
+"KDDMChatInputView_location"="Location";
+//
+/*KDDMConversationViewController.m*/
+"KDDMConversationViewController_load_more"="Refresh more for message in earlier time";
+"KDDMConversationViewController_release_load"="Release and load";
+"KDDMConversationViewController_sms_null"="Unavailable message";
+"KDDMConversationViewController_add_fail"="Failed to add contact";
+"KDDMConversationViewController_tips1"="Switch earphone mode to speaker";
+"KDDMConversationViewController_share_voice"="Share audio";
+"KDDMConversationViewController_share_location"="Share location";
+"KDDMConversationViewController_un_support_record1"="Recording is not supported";
+"KDDMConversationViewController_un_support_record2"="Failed recording";
+"KDDMConversationViewController_tips_mic"="Please allow message miccrophone exchange in setting";
+//
+/*KDDMLocationSelectViewController.m*/
+"KDDMLocationSelectViewController_location_over"="Expired location";
+"KDDMLocationSelectViewController_retry"="Re-try";
+//
+/*KDDMThreadMembersViewController.m*/
+"KDDMThreadMembersViewController_sms"="Mail message";
+"KDDMThreadMembersViewController_exit"="Return";
+"KDDMThreadMembersViewController_tips_error1"="Cant delete yourself";
+"KDDMThreadMembersViewController_tips_exit"="You will no longer receive message after quitting";
+"KDDMThreadMembersViewController_exit2"="quit";
+"KDDMThreadMembersViewController_sms_name"="Mail name";
+"KDDMThreadMembersViewController_pop_sms"="Stick to top";
+"KDDMThreadMembersViewController_tips_member"="%@[%dpeople]";
+//
+/*KDDocumentUploadTask.m*/
+"KDDocumentUploadTask_upload"="%@upload%d%@";
+"KDDocumentUploadTask_attachment"="Attachment";
+//
+/*KDFailureSignInTask.m*/
+"KDFailureSignInTask_newword_error"="Slow Internet speed, checkin record is failed";
+"KDFailureSignInTask_request"="Requesting";
+"KDFailureSignInTask_upload_suc"="Successful checkin";
+//
+/*KDForwardStatusUploadTask.m*/
+"KDForwardStatusUploadTask_tran"="Forwarding";
+"KDForwardStatusUploadTask_tran_fail"="Failed forwarding, saved as draft";
+"KDForwardStatusUploadTask_tran_suc"="Forwarding successful";
+//
+/*KDFrequentContactsPickViewController.m*/
+"KDFrequentContactsPickViewController_choice_contact"="Select contact(s)";
+"KDFrequentContactsPickViewController_search_in_all"="Searching";
+"KDFrequentContactsPickViewController_start"="Start";
+"KDFrequentContactsPickViewController_cannot_add_self"="Cant add yourself";
+//
+/*KDGuideVC.m*/
+"KDGuideVC_tips_1"="Joyful collaboration,Good appearance, New vison";
+"KDGuideVC_tips_2"="Communication shared";
+"KDGuideVC_tips_3"="Simple use,Adhoc conference";
+"KDGuideVC_tips_4"="Fruitful application";
+"KDGuideVC_tips_5"="All rivers run into sea, tolerance is a great";
+"KDGuideVC_tips_6"="Efficient collaboration";
+"KDGuideVC_tips_7"="New ways of cloud working";
+"KDGuideVC_tips_open"="Open";
+//
+/*KDImagePostPreviewView.m*/
+"KDImagePostPreviewView_check"="Click to see";
+//
+/*KDInboxCell.m*/
+"KDInboxCell_about"="Mention";
+"KDInboxCell_hall"="Wall";
+//
+/*KDInboxListSubviewController.m*/
+"KDInboxListSubviewController_new_msg"="%d new message";
+//
+/*KDInboxListViewController.m*/
+"KDInboxListViewController_at"="mention and reply%@all";
+"KDInboxListViewController_mail"="inbox";
+"KDInboxListViewController_about"="Mention";
+"KDInboxListViewController_reply"="Reply";
+//
+/*KDInviteByPhoneNumberViewController.m*/
+"KDInviteByPhoneNumberViewController_mobile_invite"="Phone number invite";
+"KDInviteByPhoneNumberViewController_tips_1"="Please enter invited mobile(must filled)";
+"KDInviteByPhoneNumberViewController_tips_2"="Please enter name of invited people(must filled)";
+"KDInviteByPhoneNumberViewController_tips_3"="Select department";
+"KDInviteByPhoneNumberViewController_tips_4"="Free invitation from %@ by sending message to entered mobile";
+"KDInviteByPhoneNumberViewController_tips_5"="Free invitation from %@ by sending message to entered mobile";
+"KDInviteByPhoneNumberViewController_invite"="Invitation";
+"KDInviteByPhoneNumberViewController_tips_6"="Incompleted message";
+"KDInviteByPhoneNumberViewController_name_null"="Name of invited people cant be empty";
+"KDInviteByPhoneNumberViewController_mobile_error"="Wrong mobile number";
+"KDInviteByPhoneNumberViewController_mobile_unavailable"="Your inputte mobile number is invalid";
+"KDInviteByPhoneNumberViewController_invite_suc"="Successful invitation";
+"KDInviteByPhoneNumberViewController_tips7"="Do you still want to invite";
+//
+/*KDInviteColleaguesViewController.m*/
+"KDInviteColleaguesViewController_addressbook_invite"="Invite Contacts";
+"KDInviteColleaguesViewController_facetoface_invite"="Face to face invitation";
+"KDInviteColleaguesViewController_build_invite_link"="Generate invited address";
+"KDInviteColleaguesViewController_wechat_invite"="We-chat invite";
+"KDInviteColleaguesViewController_qq_invite"="QQ invitation ";
+"KDInviteColleaguesViewController_invite_colleague"="Invite colleagues";
+"KDInviteColleaguesViewController_current_com"="Current invitation";
+"KDInviteColleaguesViewController_tips1"="%@, lets invite others to join our team";
+"KDInviteColleaguesViewController_tips_2"="For group information security, please confirmed the identity of invited people, please there is any security problem, please contact administrator. Real time information will be recorded in the system. Thanks for your support!";
+"KDInviteColleaguesViewController_server_error"="Server Abnormal, Retry later";
+"KDInviteColleaguesViewController_tips_3"="No permission!please contact the administrator";
+"KDInviteColleaguesViewController_choice_link_type"="Please select the linkage type";
+"KDInviteColleaguesViewController_tips_4"="Free verifying(Within 24 hours)";
+"KDInviteColleaguesViewController_tips_5"="Need administrator to approve";
+"KDInviteColleaguesViewController_tips_6"="invitation without approval";
+"KDInviteColleaguesViewController_tips_7"="Free verifying within a month";
+"KDInviteColleaguesViewController_tips_8"="notify admin";
+"KDInviteColleaguesViewController_tips_9"="%@ Invite you to %@ work field (require admin approval)";
+"KDInviteColleaguesViewController_tips_10"="%@ Invite you to %@ work field";
+"KDInviteColleaguesViewController_tips_11"="I Invite you to %@ work field";
+//KDInviteColleaguesViewController_tips_12
+"KDInviteColleaguesViewController_share_error"="Share failure, cannot get invitation link";
+//
+/*KDInvitePhoneContactsViewController.m*/
+"KDInvitePhoneContactsViewController_invite_contact"="Invite you friends";
+"KDInvitePhoneContactsViewController_select_all"="Select All";
+"KDInvitePhoneContactsViewController_no_perm"="No permission to visit your contact list";
+"KDInvitePhoneContactsViewController_tips_1"="Please enter \"Setting>Private>Address\”，\n Permit\"%@\”to enter you contact list";
+"KDInvitePhoneContactsViewController_get_local_addressbook"="Got local address book";
+"KDInvitePhoneContactsViewController_get_invite_msg"="Got invitation";
+"KDInvitePhoneContactsViewController_invite_record"="Invitation record";
+"KDInvitePhoneContactsViewController_active"="Activated";
+"KDInvitePhoneContactsViewController_already_in"="Join";
+"KDAdsManager"="Inactive";
+"KDInvitePhoneContactsViewController_un_active"="Inactive";
+"KDInvitePhoneContactsViewController_canceled"="Canceled";
+//
+/*KDInvitePhoneContactView.m*/
+"KDInvitePhoneContactView_invite_friend"="Add to  contact list";
+//
+/*KDInviteTeamCell.m*/
+"KDInviteTeamCell_hi"="%@,Hello!";
+"KDInviteTeamCell_tips"="%@invite you to join the group";
+"KDInviteTeamCell_ignore"="Ignore";
+"KDInviteTeamCell_join"="Add";
+//
+/*KDJoinTeamValidationViewController.m*/
+"KDJoinTeamValidationViewController_tips_1"="Identity verification";
+"KDJoinTeamValidationViewController_tips_2"="Submitting";
+"KDJoinTeamValidationViewController_tips_3"="Application Submitted, pending for approval";
+"KDJoinTeamValidationViewController_tips_4"="if it's approved,you will receive the mms and then join the group";
+"KDJoinTeamValidationViewController_tips_5"="Submit failure";
+"KDJoinTeamValidationViewController_tips_6"="Please input your identity in detail in order to verify promptly ";
+"KDJoinTeamValidationViewController_tips_7"="Apply to join";
+//
+/*KDJoinWorkGroupViewController.m*/
+"KDJoinWorkGroupViewController_my_com"="My work field";
+"KDJoinWorkGroupViewController_look"="Browse";
+"KDJoinWorkGroupViewController_create_com"="Create";
+"KDJoinWorkGroupViewController_join_fail"="Join Work Field Failure";
+"KDJoinWorkGroupViewController_tips_1"="No group which you have joined,\n you may create a new group and invite the others to join.\n%@,Enjoy yourself";
+"KDJoinWorkGroupViewController_account_cancel"="\t Please contact the admistrator,your accounts have something wrong.";
+"KDJoinWorkGroupViewController_tips_2"="Waiting for administrator approval to join the work field ";
+//
+/*KDLeftMenuBottomView.m*/
+"KDLeftMenuBottomView_recommand"="Recommend";
+//
+/*KDLeftTeamMenuViewController.m*/
+"KDLeftTeamMenuViewController_setting"="Settings";
+"KDLeftTeamMenuViewController_tips_1"="It's a funny mobile working platform,if you like it,please click  %@ to download.";
+"KDLeftTeamMenuViewController_tips_2"="No permission to visiting action,if any question,please contact the administrator.";
+"KDLeftTeamMenuViewController_regis_suc"="Register Successfully";
+"KDLeftTeamMenuViewController_team_account"="Team account";
+"KDLeftTeamMenuViewController_change_team_account"="Switch team account";
+"KDLeftTeamMenuViewController_change_team_account_fail"="Fail";
+//
+/*KDLeftWorkGroupInfoView.m*/
+"KDLeftWorkGroupInfoView_tips_company"=" compay";
+"KDLeftWorkGroupInfoView_tips_1"="(Pending)";
+"KDLeftWorkGroupInfoView_tips_2"="Your message already sent to Admin of %@ work field, pending for approval";
+"KDLeftWorkGroupInfoView_tips_ok"="Good";
+//
+/*KDLinkInviteConfig.m*/
+"KDLinkInviteConfig_tips_exist"="Already in Work Field";
+//
+//KDLocalNotificationManager.m
+"KDLocalNotificationManager_sun"="Sunday";
+"KDLocalNotificationManager_mon"=" Monday";
+"KDLocalNotificationManager_tue"="Tuesday";
+"KDLocalNotificationManager_wed"="Wednesday";
+"KDLocalNotificationManager_thu"="Thursday";
+"KDLocalNotificationManager_fri"=" Friday";
+"KDLocalNotificationManager_sat"=" Saturday";
+"KDLocalNotificationManager_warn"="Setting the alert at %d,repeat %@ times.";
+"KDLocalNotificationManager_tips_1"="A new day with new beginning, don't forget to check in!";
+"KDLocalNotificationManager_tips_2"="congratulation to have a nice day, don't forget to check out";
+"KDLocalNotificationManager_sign"="%@Check In";
+"KDLocalNotificationManager_never"="Never";
+"KDLocalNotificationManager_everyday"="Everyday";
+"KDLocalNotificationManager_wordday"="Working day";
+"KDLocalNotificationManager_week_day"="Weekly %@";
+//
+/*KDLocationManager.m*/
+"KDLocationManager_network_instable"="Unstable networking";
+"KDLocationManager_poi_null"="POI null";
+"KDLocationManager_get_arround_fail"=" Get arround information failed";
+"KDLocationManager_adjust_null"="Adjustment information null";
+"KDLocationManager_adjust_suc"="Adjustment success";
+"KDLocationManager_send_lnglat"="Sending the address %@，but don't get POI information";
+"KDLocationManager_get_poi"="POI Start to get POI";
+"KDLocationManager_get_poi_over"="To get POI overtime";
+"KDLocationManager_get_init_location"="Original location= %f,%f ";
+"KDLocationManager_locaiton_unavailable"="Location function unavailable";
+"KDLocationManager_location_null"="Location failure";
+"KDLocationManager_retry_poi"="POI retry";
+"KDLocationManager_get_poi_error"="Error messege when getting POI";
+//
+/*KDLocationOptionViewController.m*/
+"KDLocationOptionViewController_choice_location"="location selection";
+"KDLocationOptionViewController_cur_location"="Current location";
+"KDLocationOptionViewController_clean"="Clear";
+//
+/*KDLocationView.m*/
+"KDLocationView_cannot_location"="Location failure";
+"KDLocationView_init"="Initialize⋯..";
+"KDLocationView_get_location"="Acquiring location";
+//
+/*KDMainTimelineViewController.m*/
+"KDMainTimelineViewController_follow"="Follow";
+"KDMainTimelineViewController_followed"="Followed";
+"KDMainTimelineViewController_hot"="Hot topic";
+"KDMainTimelineViewController_notice"="Notice";
+//
+/*KDMeIconTableViewCell.m*/
+"KDMeIconTableViewCell_admin"="Admin";
+//
+/*KDMessageUploadTask.m*/
+"KDMessageUploadTask_send_suc"="successful send";
+"KDMessageUploadTask_del_suc"="Success deletion for unsend  email:%@";
+"KDMessageUploadTask_sms_unavailable"="SMS unavailable";
+"KDMessageUploadTask_sms_unavailable2"="Current community email unavailable";
+//
+/*KDMeVC.m*/
+"KDMeVC_me"="Me";
+"KDMeVC_change_com"="Switch work field";
+"KDMeVC_admin_ass"="Assistant administrator";
+"KDMeVC_create_com"="Create new work field";
+"KDMeVC_recommand"="Recommendation";
+//
+/*KDNavigationController2.m*/
+"KDNavigationController2_tips_1"="our last working field, not supporting logout";
+"KDNavigationController2_tips_2"="If unjoin the group, \n plese enter the password";
+"KDNavigationController2_tips_3"=" Confirm";
+//
+/*KDNewPhotoSignInController.m*/
+"KDNewPhotoSignInController_mark_cur_location"="Remark";
+"KDNewPhotoSignInController_take_photo"="please take a photo to record the checkin location ";
+"KDNewPhotoSignInController_sign_type"="Checkin type";
+"KDNewPhotoSignInController_work_in"="Office work";
+"KDNewPhotoSignInController_work_out"="attendance outsides office";
+"KDNewPhotoSignInController_notice_boss"="Notify department heads";
+"KDNewPhotoSignInController_take_photo_sign"="Photo checkin";
+"KDNewPhotoSignInController_un_support_take_photo"="no photo support for this equipment";
+"KDNewPhotoSignInController_add_remark"="Watermark is creating";
+"KDNewPhotoSignInController_tips_sign1"="%@ %@ Check in";
+"KDNewPhotoSignInController_tips_save_fail"="failed to save for photo";
+"KDNewPhotoSignInController_tips_2"="Turn on the configuration to make the configuration for private photo";
+"KDNewPhotoSignInController_input_remake"="Remark message input";
+"KDNewPhotoSignInController_choice_boss"="person for departmental in charge option";
+"KDNewPhotoSignInController_tips_save_suc"="data saved";
+"KDNewPhotoSignInController_tips_no_photo"="No photo take ";
+"KDNewPhotoSignInController_take_photo_fail"="check in throught photo failed";
+"KDNewPhotoSignInController_upload_fail"="picture upload failed";
+"KDNewPhotoSignInController_signing"="Checking In";
+"KDNewPhotoSignInController_tips_7"="Photo check-in provide 100% of caring and protection, I'm loving it!";
+"KDNewPhotoSignInController_sign_fail"="Check in failed";
+//
+/*KDPermissionErrorViewController.m*/
+"KDPermissionErrorViewController_no_perm"="%@ Unauthorized to view your phote=o";
+"KDPermissionErrorViewController_enter_system"="Please Click\")Setting>Private>photo\",\n Permit\"%@\" to browse ";
+//
+/*KDPhoneBindingDisplayViewController.m*/
+"KDPhoneBindingDisplayViewController_mobile"="Your  mobile number:%@";
+"KDPhoneBindingDisplayViewController_tips_1"="Please change your mobile number if you get new mobile number";
+"KDPhoneBindingDisplayViewController_change_mobile"="Change mobile number";
+"KDPhoneBindingDisplayViewController_your_mobile"="Your mobile number:%@";
+//
+/*KDPhoneInputViewController.m*/
+"KDPhoneInputViewController_regis"="Registor";
+"KDPhoneInputViewController_find_psw"="Forgot Password?";
+"KDPhoneInputViewController_input_regis_mobile"="Input the registrated mobile number";
+"KDPhoneInputViewController_input_bind_mobile"="Input the defaulted mobile number";
+"KDPhoneInputViewController_mobile_same"="Same mobile numbers for new and original mobile, re input again";
+"KDPhoneInputViewController_tips_1"="Send certification number to this number through SMS \n%@ %@ ";
+"KDPhoneInputViewController_tips_2"=" the mobile number is registrated, can directly login";
+//
+/*KDPhotoGalleryViewController.m*/
+"KDPhotoGalleryViewController_fail"="Photo donwload failed";
+//
+/*KDPhotoSignInTypeController.m*/
+"KDPhotoSignInTypeController_word_type"="Type";
+//
+/*KDPhotoUploadTask.m*/
+"KDPhotoUploadTask_suc"="successful  photo upload";
+"KDPhotoUploadTask_all_suc"="full photo upload success";
+"KDPhotoUploadTask_fail"="FAILED photo upload failed";
+"KDPhotoUploadTask_cancel"="canceled photo upload canceled";
+//
+/*KDPicturePickedPreviewViewController.m*/
+"KDPicturePickedPreviewViewController_Preview"="Preview";
+"KDPicturePickedPreviewViewController_Use"="Usage";
+//
+/*KDPlaceAroundTableView.m*/
+"KDPlaceAroundTableView_More"="More";
+"KDPlaceAroundTableView_NoMore"=" No more data";
+"KDPlaceAroundTableView_NoMore.."="No more data";
+"KDPlaceAroundTableView_Position"="[Position]";
+//
+/*KDPreInvitePersonViewController.m*/
+"KDPreInvitePersonViewController_navigationItem_title_count"="(%d) person(s)";
+"KDPreInvitePersonViewController_navigationItem_title"="Inviting";
+//
+/*KDProfileDetailTabBarController.m*/
+"KDProfileDetailTabBarController_Fellow"="Follower";
+//
+/*KDProfileTagsViewController.m*/
+"KDProfileTagsViewController_CustomTag"="Add tags";
+"KDProfileTagsViewController_Tag"="Tag";
+//
+/*KDPwdConfirmViewController.m*/
+"KDPwdConfirmViewController_SettingPwd"="Configurate password";
+"KDPwdConfirmViewController_textFieldMain_placeholder"="Set %@ password";
+"KDPwdConfirmViewController_ShowPwd"="Display password";
+"KDPwdConfirmViewController_ForgetPwd"=" Forgot password?";
+"KDPwdConfirmViewController_AgreeAndComply"="Agree the terms";
+"KDPwdConfirmViewController_Regulation"="《%@'s agreement》";
+"KDPwdConfirmViewController_alertView_message"="New password, 6-25 characters (letters, figure, symbol) component";
+"KDPwdConfirmViewController_alertView_message_tips"=" Password is invalid, Please configure again";
+//
+/*KDReachabilityManager.m*/
+"KDReachabilityManager_record_mbShare"="For mobile check in, it is cool to have WIFI check in, mother is no need to worry about uncheck in";
+"KDReachabilityManager_record_content"="For mobile check in, it is cool to have WIFI check in, mother is no need to worry about uncheck in";
+"KDReachabilityManager_Overlay"="system auto check in, tick and view";
+"KDReachabilityManager_Error"="error for data back to system";
+"KDReachabilityManager_Fail"="Internal check in failed";
+//
+/*KDRecentlyColleagueViewController.m*/
+"KDRecentlyColleagueViewController_Common"="Favourite";
+//
+/*KDSearchBar.m*/
+"KDSearchBar_Search"="Search";
+//
+/*KDSearchTeamViewController.m*/
+"KDSearchTeamViewController_searchBar_placeHolder"="Search for company name and code";
+"KDSearchTeamViewController_Searching"="Searching";
+"KDSearchTeamViewController_Search_Fail"="Search failed";
+"KDSearchTeamViewController_Search_NoResult"="No related company being searched";
+"KDSearchTeamViewController_alertView_message"="No direct join to the company under \"Compamy type\"";
+//
+/*KDSearchViewControllerNew.m*/
+"KDSearchViewControllerNew_init"="People data under initialization, please wait";
+//
+/*KDSettingViewController.m*/
+"KDSettingViewController_Logout_Account"="Account logout";
+"KDSettingViewController_Change_Pwd"="Modify gesture password";
+"KDSettingViewController_Setting_Pwd"="Open gesture password";
+"KDSettingViewController_Logout_Work"="Exit the Work Field";
+"KDSettingViewController_Evaluation"="Evaluaton";
+"KDSettingViewController_Logout"="Sign out";
+"KDSettingViewController_Clear_Cache"="Clear cache";
+"KDSettingViewController_alertView_Last_Work"="This is your last working field";
+"KDSettingViewController_alertView_subTitle_error"="Logout temporary not being supported";
+"KDSettingViewController_alertView_tips"="That working field is configured as back end maintenance by administrator, not support mobile logout operation ";
+"KDSettingViewController_alertView_message_error"="That working field under enterprise working field, not allow logout";
+"KDSettingViewController_alertView_message_tips"="%@ if need to logout";
+"KDSettingViewController_NilPwd"="Password cannot null";
+"KDSettingViewController_ErrorPwd"="Password input error";
+"KDSettingViewController_Success"="Success";
+"KDSettingViewController_Logout_Work_Success"="Success to exit the Work Field";
+"KDSettingViewController_Logout_Work_Fail"="working field logout failed";
+"KDSettingViewController_New_Notifications"="New notifications";
+//
+/*KDSharePhoneContact.m*/
+"KDSharePhoneContact_result"="Contact list upload success";
+//
+/*KDSheet.h*/
+"KDSheet_Share_Success"="Share successful";
+"KDSheet_Share_Fail"="Share failed";
+//
+/*KDSheet.m*/
+"KDSheet_SheetShareWaySMS"="SMS";
+"KDSheet_SheetShareWayWechat"="WeChat";
+"KDSheet_SheetShareWayMoment"="Working field";
+"KDSheet_SheetShareWayQzone"="QQ space";
+"KDSheet_labelSheetTitle_text"="Share";
+"KDSheet_MessageComposeResultCancelled"="You'd already cancelled the sharing!";
+"KDSheet_MessageComposeResultSent"="Share successful!";
+"KDSheet_MessageComposeResultFailed"="Share failed!";
+//
+/*KDSignInCell.m*/
+"KDSignInCell_Sigin"="A new day start from sign in \nAnd you can share your working hours";
+"KDSignInCell_Tips"="You're finally here! I can manage staffs internal or field work. I can help to check the working hours and make attendance management easier,try it on!";
+"KDSignInCell_Morning"="Morning";
+"KDSignInCell_InTheMorning"="Dawn";
+"KDSignInCell_Afternoon"="Afternoon";
+"KDSignInCell_Evening"="Evening";
+//
+/*KDSignInCreateAliasController.m*/
+"KDSignInCreateAliasController_AlertView_Title"="Please enter your name";
+//
+/*KDSignInHintView.m*/
+"KDSignInHintView_titleLabel_text_init"="Click here to share";
+"KDSignInHintView_titleLabel_text_prompt"="Is it your working place Please click here to set the check in point";
+//
+/*KDSignInNotSettingViewController.m*/
+"KDSignInNotSettingViewController_navigationItem_title"="Mobile attendance";
+"KDSignInNotSettingViewController_alertLabel_text"="The current business is not officially launched mobile check-ins!";
+"KDSignInNotSettingViewController_tryUseButton_title"="Okay! I will try.";
+"KDSignInNotSettingViewController_remindLabel_attributedText"="How to enable \ n \ n administrator login page end, set up mobile commuting time and attendance point in Applications> sign> sign setting.";
+//
+/*KDSignInOutDoorView.m*/
+"KDSignInOutDoorView_contentView_placeholder"="Content";
+"KDSignInOutDoorView_HUD_labelText"="Image uploading⋯";
+"KDSignInOutDoorView_picker_view_title"="Failure to store pictures, please open the Settings - Privacy - Photos to be set";
+"KDSignInOutDoorView_alertWindow_title"="Can not fetch album information, please confirm whether to open this application access to the album.";
+//
+/*KDSignInPOIInputView.m*/
+"KDSignInPOIInputView_tipsLabel_text"="The map service provider may not mark the current surrounding location, please note your location to sign in!";
+//
+/*KDSignInPoint.m*/
+"KDSignInPoint_Suffix"="Rename";
+//
+/*KDSignInPointsController.m*/
+"KDSignInPointsController_navigationItem_title"="Checkin point management";
+"KDSignInPointsController_HUD_labelText"="On loading...";
+"KDSignInPointsController_Loding_Fail"="Fail to load data";
+"KDSignInPointsController_label_text"="Do not have \"Check in \", please click the top right corner to add!";
+//
+/*
+ KDSignInPointWorkTimeCell.m
+ */
+"KDSignInPointWorkTimeCell_countTimeTitleLabel_text"="Working hours";
+//
+/*
+ KDSignInRangeController.m
+ */
+"KDSignInRangeController_titleLabel_text"="Due to the deviation of the location service, the recommend range is 200 meters";
+//
+/*KDSignInSettingViewController.m*/
+"KDSignInSettingViewController_label_text"="Remind me in specific time";
+"KDSignInSettingViewController_navigationItem_title"="Mobile check in setting ";
+"KDSignInSettingViewController_group_name"="MicroBlog Hall";
+"KDSignInSettingViewController_moringMindCell_leftLabel_text"="Sign in";
+"KDSignInSettingViewController_afternoonMindCell_leftLabel_text"="Sign out";
+"KDSignInSettingViewController_repeatCell_leftLabel_text"="Repeat";
+"KDSignInSettingViewController_functionCell_leftLabel_text"="Features introduction";
+"KDSignInSettingViewController_deviceIdCell_leftLabel_text"="Check device number";
+"KDSignInSettingViewController_shareRangeCell_leftLabel_text"="Check in sharing range  ";
+"KDSignInSettingViewController_notificationView_message"="Sending, default to send to MicroBlog ";
+"KDSignInSettingViewController_errorMessage"="Unable to explain";
+"KDSignInSettingViewController_deviceId_fail"="Get device number failed!";
+"KDSignInSettingViewController_deviceId_success"="%@\nThe device number is encrypted,to picket and verify on behalf to check in";
+//
+/*KDSignInViewController.m*/
+"KDSignInViewController_success"="Sign in success!";
+"KDSignInViewController_RecordHint"="Today's record %d";
+"KDSignInViewController_RecordFailuredContent"="Photo checkin";
+"KDSignInViewController_NOSetting"="Not configured";
+"KDSignInViewController_taskUploadFail_message"="Do you want to upload the loading data manually";
+"KDSignInViewController_Reason"="Reson:%@";
+"KDSignInViewController_locationDidFailed_message"="Slow network speed";
+"KDSignInViewController_alertView_network_error"="Sorry, Due to unstable network connection or sever problem, you can not use regular checkin, please try other ways as below:";
+"KDSignInViewController_sendIssule_success"="Customize check in successful";
+"KDSignInViewController_sendIssule_fail"="Customize check in fail";
+"KDSignInViewController_Sigin_Fail"="Check in fail";
+"KDSignInViewController_FieldSigin_Fail"="On field check in fail";
+"KDSignInViewController_Tips"="Set up the check in point, remember to click【Setting】-【Check in point】. Moreover, to view all the check in record, please click top right corner 【All records】";
+"KDSignInViewController_HUD_labelText_"="Notifying the administrator⋯";
+"KDSignInViewController_HUD_labelText_signinFaild"="Getting surrounding location";
+"KDSignInViewController_Photo_Try"="Dear, try the photo check in now!";
+"KDSignInViewController_Share_Moment"="Share to moment";
+"KDSignInViewController_Add_Field_Sigin"="New on field check in";
+"KDSignInViewController_delayInSeconds_error"="Positioning timeout, relocating now⋯";
+"KDSignInViewController_Sigin_Success"="Check in successfully! You can click top right corner\ Check in record\ \"To check all of your check in records!\"";
+"KDSignInViewController_Month"="%ld month";
+"KDSignInViewController_Sunday"="Sunday";
+"KDSignInViewController_Monday"="Monday";
+"KDSignInViewController_Tuesday"="Tuesday";
+"KDSignInViewController_Wednesday"="Wednesday";
+"KDSignInViewController_Thursday"="Thursday";
+"KDSignInViewController_Friday"="Friday";
+"KDSignInViewController_Saturday"="Saturday";
+"KDSignInViewController_Photo_Sigin"="No internet connection, fail to checkin accurately, please take a picture for checkin!";
+"KDSignInViewController_Parsing_Sigin_Fail"="Check in: Check in record is failed to analyze";
+"KDSignInViewController_Upload_Fail"="Check-in record not yet upload";
+"KDSignInViewController_draft_content"="#Mobile check in#%@, I check in the %@.";
+"KDSignInViewController_Device_NOSuport"="This device does not support camera functions";
+"KDSignInViewController_shareToWechat_Title"="Logical error";
+"KDSignInViewController_Share_Moment_Fail"="Failed to share moment";
+//
+/*KDSignOutConfirmVC.m*/
+"KDSignOutConfirmVC_LABLE_TITLE"="Important notice";
+"KDSignOutConfirmVC_LABLE_MESSAGE"="Once you sign off the working field, you may not be able to check any messages of the working field. You will not be able to view the previous session information., even if you join the working field again.";
+"KDSignOutConfirmVC_BUTTON_TITLE"="Confirm and exit";
+"KDSignOutConfirmVC_Pwd_Nil"="%@Password cannot be empty";
+"KDSignOutConfirmVC_Pwd_Err"="%@Incorrect password";
+"KDSignOutConfirmVC_alertView_message_find_admin"="You are only one administrator in this Work Field, must assign another one before exiting.";
+"KDSignOutConfirmVC_personStr"="Waiting someone";
+"KDSignOutConfirmVC_alertView_message_setting_admin"="Do you want to be the new administrator and quit the working field";
+//
+/*KDSignPointPoiSearch.m*/
+"KDSignPointPoiSearch_searchBar_placeholder"="Search";
+"KDSignPointPoiSearch_alert_msg"="The query fails";
+//
+/*KDSingleInputViewController.m*/
+"KDSingleInputViewController_KDSingleInputContentTypeDMThreadSubject"="Correct the short post name";
+"KDSingleInputViewController_KDSingleInputContentTypeUsername"="Correct the user name";
+"KDSingleInputViewController_textFieldMain_placeholder"="Enter the name";
+"KDSingleInputViewController_alter_msg_invalid"="Short post name cannot be empty";
+"KDSingleInputViewController_alter_title_invalid"="Null";
+"KDSingleInputViewController_alter_msg_err"="Update short post name failed";
+"KDSingleInputViewController_alter_title_err"="Mistake";
+//
+/*KDSocialsShareManager.m*/
+"KDSocialsShareManager_QQ_NoInstalled"="Share failed, you have not installed the mobile QQ yet";
+"KDSocialsShareManager_WeChat_NoInstalled"="Share failed, you have not installed Wechat yet";
+"KDSocialsShareManager_Msg_NoSuport"="You mobile is not support sending message";
+"KDSocialsShareManager_Share_Fail"="Share failed!";
+"KDSocialsShareManager_Share_Success"="Share successful!";
+"KDSocialsShareManager_qzone_NoSuport_text"="qzone share is not support text type sharing";
+"KDSocialsShareManager_qzone_NoSuport_image"="qzone share is not support image type sharing";
+//
+/*KDStatusContentDetailView.m*/
+"KDStatusContentDetailView_markString"="Reply";
+//
+/*KDStatusDetailView.m*/
+"KDStatusDetailView_voteBtn_title"="Join voting";
+//
+/*KDStatusDetailViewController.m*/
+"KDStatusDetailViewController_sourceLabel_text"="%@ From %@";
+"KDStatusDetailViewController_Forward"="Forward";
+"KDStatusDetailViewController_Like"="Like";
+"KDStatusDetailViewController_loading"="Processing...";
+"KDStatusDetailViewController_refreshing"="Refresh...";
+"KDStatusDetailViewController_NoLike"="Nobody like yet";
+"KDStatusDetailViewController_Task"="Mission change";
+//
+/*KDStatusHeaderView.m*/
+"KDStatusHeaderView_manyImagesIndicator"="More image";
+"KDStatusHeaderView_voteIndicator"="Vote";
+//
+/*KDStatusLayouter.m*/
+"KDStatusLayouter_Reply"="Reply @%@:%@";
+//
+/*KDStatusRelativeContentSectionView.m*/
+"KDStatusRelativeContentSectionView_Like"="Like %d";
+//
+/*KDStatusUploadTask.m*/
+"KDStatusUploadTask_draft"="Getting draft from the database successfully";
+"KDStatusUploadTask_processingMessage"="↑  Sending⋯";
+"KDStatusUploadTask_errorMessage"="×  Fail to send ，has been saved to drafts.";
+"KDStatusUploadTask_successMsg"="√  Sent";
+//
+/*KDStatusView.m*/
+"KDStatusView_resendBtn_title"="Click to resend";
+"KDStatusView_sending"="Sending⋯";
+//
+/*KDTaskDetailView.m*/
+"KDTaskDetailView_Operator"="Executor:";
+"KDTaskDetailView_Deadline"="Due date:";
+"KDTaskDetailView_share_field"="Shareing range:";
+"KDTaskDetailView_Original_msg"="View original post";
+"KDTaskDetailView_task_detail"="Task details";
+//
+/*KDTaskDiscussViewController.m*/
+"KDTaskDiscussViewController_title"="Task discussion";
+"KDTaskDiscussViewController_rightItem_title"="Details";
+"KDTaskDiscussViewController_label_text"="Reply and discuss ...";
+"KDTaskDiscussViewController_HUD_text"="Mark unfinished ...";
+"KDTaskDiscussViewController_success_flag"="Successful to mark unfinished";
+"KDTaskDiscussViewController_fail_flag"="Failed to mark unfinished";
+"KDTaskDiscussViewController_submit"="Submitting ...";
+"KDTaskDiscussViewController_success_task"="Task completed ";
+"KDTaskDiscussViewController_fail_task"="Task failed";
+"KDTaskDiscussViewController_alert_msg"="Exceeds the character limit";
+"KDTaskDiscussViewController_weibo_delete"="MicroBlog has been deleted";
+"KDTaskDiscussViewController_NoTaskDetail"="Failed to get the details of the task";
+//
+/*KDTaskEditorView.m*/
+"KDTaskEditorView_title_text"="Executor";
+"KDTaskEditorView_label_text"="Task content";
+"KDTaskEditorView_Executors"="At least to have one executor";
+//
+/*KDTaskEditorViewController.m*/
+"KDTaskEditorViewController_title"="Task information";
+"KDTaskEditorViewController_Success"="Task saved";
+//
+/*KDTaskHeaderView.m*/
+"KDTaskHeaderView_info"="%@   %@Create";
+"KDTaskHeaderView_replyCountLabel_text"="%d reply";
+//
+/*KDTaskShareViewController.m*/
+"KDTaskShareViewController_noSearchResultCell_textLabel_text"="Not found the right team";
+"KDTaskShareViewController_Group"="Group";
+//
+/*KDTeamCell.m*/
+"KDTeamCell_addButtonLabel_text"="Added";
+"KDTeamCell_teamNumberLabel_text"="Code";
+//
+/*KDTeamNameInputViewController.m*/
+"KDTeamNameInputViewController_navigationItem_title"="Name setting";
+//
+/*KDTeamPageViewController.m*/
+"KDTeamPageViewController_navigationItem_title_noti"="personal notification";
+"KDTeamPageViewController_navigationItem_title_me"="My %@";
+"KDTeamPageViewController_navigationItem_title_company"="My company";
+"KDTeamPageViewController_exit"="Exit";
+"KDTeamPageViewController_HUD_labelText_joining"="Joining";
+"KDTeamPageViewController_Join_Success"="Joined ";
+"KDTeamPageViewController_Join_Fail"="Join failed";
+"KDTeamPageViewController_HUD_labelText_Undo"="Deleting";
+"KDTeamPageViewController_Undo_Success"="Deleted";
+"KDTeamPageViewController_Undo_Fail"="Failed to delete";
+"KDTeamPageViewController_OK"="Nailed it!";
+//
+/*KDToDoContainorViewController.m*/
+"KDToDoContainorViewController_title"="Notifications";
+"KDToDoContainorViewController_rightItem_title"="Filter";
+"KDToDoContainorViewController_"="Wechat pocket";
+"KDToDoContainorViewController_model_title"="@Mention";
+"KDToDoContainorViewController_undoModel_title"="Pending";
+//
+/*KDTodoListCell.m*/
+"KDTodoListCell_disscus"="Discuss";
+"KDTodoListCell_flag_success"="Mark completed";
+"KDTodoListCell_flag_fail"="mark not complete";
+//
+/*KDTodoListViewController.m*/
+"KDTodoListViewController_titleLabel_text"="Task is completed";
+"KDTodoListViewController_Do"="Processed";
+"KDTodoListViewController_Me"="I initiated";
+//
+/*KDToDoOperateCell.m*/
+"KDToDoOperateCell_Yesterday"="Yesterday";
+"KDToDoOperateCell_TheDayBeforeYesterday"="The day before yesterday";
+//
+/*KDToDoViewCell.m*/
+"KDToDoViewCell_delete_seccess"="Delete successful";
+"KDToDoViewCell_delete_fail"="Has not been deleted sucessfully";
+"KDToDoViewCell_text"="Text message";
+"KDToDoViewCell_alertTips"="Alert or not";
+//
+/*KDToDoViewController.m*/
+"KDToDoViewController_TODO"="Pending";
+"KDToDoViewController_Done"="Completed";
+"KDToDoViewController_emptyDataLabel_text"="Uploading the notification, please wait";
+"KDToDoViewController_alert_msg"="Confirm to delete this message";
+"KDToDoViewController_Deal"="Apply";
+"KDToDoViewController_NoDeal"="Do not apply";
+"KDToDoViewController_Do"="Do not deal";
+"KDToDoViewController_CallBakc"="Occurred status callback";
+"KDToDoViewController_NoFind"="Not found your document, please try to other types";
+"KDToDoViewController_Download_All"="Download all pending issues";
+"KDToDoViewController_Update_Statuse"="Update pending status ";
+"KDToDoViewController_Update_Msg"="Update the pending information";
+"KDToDoViewController_No_Completed"="No Content";
+//
+/*KDVideoPickerViewController.m*/
+"KDVideoPickerViewController_save"="< Save";
+"KDVideoPickerViewController_Use"="Use >";
+"KDVideoPickerViewController_RecordVideo_fail"="Unable to record video";
+"KDVideoPickerViewController_Tips"="Please set up the device - Privacy - Microphone \"option, allowing access to the microphone @%\"";
+"KDVideoPickerViewController_ending"="Recording, please press the button again to finish it";
+"KDVideoPickerViewController_start"="Press the button and start to record";
+"KDVideoPickerViewController_save_fail"="Save failed ";
+"KDVideoPickerViewController_time"="%d seconds left";
+//
+/*KDVideoPlayerController.m*/
+"KDVideoPlayerController_failureLabel_text"="Video loading failed, Click anywhere to reload";
+"KDVideoPlayerController_percentLabel_text"="Video call is loading";
+//
+/*KDVideoUploadTask.m*/
+"KDVideoUploadTask_Video"="Video";
+//
+/*KDVoteView.h*/
+"KDVoteView_Vote_Ending"="Voting ended";
+"KDVoteView_Vote_Result"="Check result after vote";
+//
+/*KDVoteView.m*/
+"KDVoteView_Vote_Again"="Re-vote";
+"KDVoteView_Vote_Select"="Sclect the item to vote";
+"KDVoteView_Tips"="Please select %d-%d option to vote";
+"KDVoteView_Vote_Num"="Count";
+"KDVoteView_Voted"="Voted";
+//
+/*KDVoteViewController.m*/
+"KDVoteViewController_navigationItem_title"="MicroBlog content";
+"KDVoteViewController_Vote_Delete"="Voting has been deleted";
+"KDVoteViewController_Vote_Success"="Voting success";
+"KDVoteViewController_Tips"="Do you want to share the voting result";
+"KDVoteViewController_NO"="No, Thank You";
+"KDVoteViewController_Share"="Share";
+"KDVoteViewController_Ending"="The vote is finished and cannot participate";
+"KDVoteViewController_Err"="Voting is not successful.Please try again later";
+//
+/*KDWeiboAppDelegate.h*/
+"KDWeiboAppDelegate_weibo_share_success"="MicroBlog share successful";
+"KDWeiboAppDelegate_weibo_share_fail"="MicroBlog share failed";
+"KDWeiboAppDelegate_wechat_success"="WeChat shareing success";
+"KDWeiboAppDelegate_wechat_fail"="WecChat shareing failure ";
+//"="Looking forward to this function";
+/*KDWIFIListController.m*/
+//"="Do not need";
+"KDWIFIListController_WIFI"="loading data";
+//"="Pull more data can be loaded";
+/*KDWisdomRadarController.m*/
+//"="Immediately release more data load";
+"KDWisdomRadarController_okBtn_title"="Looking forward to this function";
+"KDWisdomRadarController_refuseBtn_title"="Not required";
+"KDWisdomRadarController_alert_msg"="Release immediately refresh";
+//"="We are helping you to refresh ...";
+/*LoadingView.m*/
+//"="Today HH: mm";
+"LoadingView_msg"="Loading data";
+//"=" iPhone client";
+/*MJRefreshConst.m*/
+//"="Meanwhile Reply %@";
+"MJRefreshConst_FooterPullToRefresh"="Scroll up to download more data";
+"MJRefreshConst_FooterReleaseToRefresh"="Release button to download more data";
+"MJRefreshConst_FooterRefreshing"="loading data";
+"MJRefreshConst_HeaderPullToRefresh"="Scroll down for refresh ";
+"MJRefreshConst_HeaderReleaseToRefresh"="Release for refresh";
+"MJRefreshConst_HeaderRefreshing"="Refreshing your data ";
+//
+/*MJRefreshHeaderView.m*/
+"MJRefreshHeaderView_date"="Today HH:mm";
+"MJRefreshHeaderView_lastUpdateTimeLabel_text"="Latest update:%@";
+//"=" iPhone client";
+/*NSString+Scheme.m*/
+//"="Meanwhile Reply %@";
+"NSString+Scheme_appName"="Client of iphone";
+//
+/*PostViewController.m*/
+//"="You can only upload pictures 9";
+"PostViewController_title_weibo"="Forward to my MicroBlog";
+"PostViewController_title_replay"="Reply %@";
+"PostViewController_Save_Draft"="Save";
+"PostViewController_NoSave"="Un-save";
+"PostViewController_Share_Video"="Share media";
+"PostViewController_Choose_Photo"="Select photo(s)";
+"PostViewController_Edit_weibo"="Post a MicroBlog";
+"PostViewController_Video_Upload"="Video Upload%d %%";
+"PostViewController_Picture_Upload"="Image Upload%d %%";
+"PostViewController_Alert"="Maximum upload 9 pictures ";
+"PostViewController_send_to"="Send To: %@";
+
+/*KDSelectRangeViewController*/
+"KDSelectRangeViewController_title" = "Select Group";
+
+//
+/*ProfileViewController.m*/
+"ProfileViewController_navigationItem_title"="Homepage";
+"ProfileViewController_Unfollow"="Get data error";
+"ProfileViewController_NoUser"="Personal settings";
+"ProfileViewController_Data_Err"="Acquire data error";
+"ProfileViewController_Follow"="phone";
+//"="e-mail";
+/*ProfileViewController2.m*/
+"ProfileViewController2_title"="Personal details";
+"ProfileViewController2_Company"="Company";
+"ProfileViewController2_Phone"="Mobile Phone / Fixed Line";
+"ProfileViewController2_Other"="other";
+"ProfileViewController2_Tel"="Telephone";
+"ProfileViewController2_Email"="Email";
+"ProfileViewController2_Phone_Usually"="Mobile number";
+"ProfileViewController2_Phone_Work"="Office Telephone";
+"ProfileViewController2_Phone_Company"="Company code";
+"ProfileViewController2_Email_Work"="Email address (Job)";
+"ProfileViewController2_Email_person"="Email address (Personal)";
+"ProfileViewController2_Birth"="Birthday";
+"ProfileViewController2_Address"="Address";
+"ProfileViewController2_Edit"="Edit";
+"ProfileViewController2_Add"="Add %@";
+"ProfileViewController2_Other2"="Other";
+"ProfileViewController2_Alert_tel"="Please enter the phone number in proper format";
+"ProfileViewController2_Alert_Email"="Please enter a valid email";
+"ProfileViewController2_Min"="minutes";
+"ProfileViewController2_Avtar"="Profile picture";
+"ProfileViewController2_UserName"="User name";
+"ProfileViewController2_Account_Phone"="Account of mobile phone";
+"ProfileViewController2_NoLink"="Unbound";
+"ProfileViewController2_Account_Email"="Email accoount";
+"ProfileViewController2_DepartMent"="Department";
+"ProfileViewController2_Draft"="Drafts";
+"ProfileViewController2_Try"="Modification failed, please try again";
+"ProfileViewController2_Job"="Position";
+"ProfileViewController2_Account"="Account";
+"ProfileViewController2_tep1"="Phone number 1";
+"ProfileViewController2_tel2"="Phone number 2";
+"ProfileViewController2_Alert_NoSuport"="The work is set by the administrator backend maintenance, does not support mobile portal in modifing the name.";
+"ProfileViewController2_Alert_NoFix"="The work is set by the administrator backend maintenance, does not support mobile portal in modifing the department.";
+"ProfileViewController2_Company_text"="Company content";
+"ProfileViewController2_Contact_txt"="Contact information";
+"ProfileViewController2_weibo_Link"="MicroBlog related";
+"ProfileViewController2_Account_hu"="Account";
+"ProfileViewController2_Setting_Fail"="Setting failure";
+//
+/*RefreshTableFootView.m*/
+"RefreshTableFootView_Pulling_load"="Release button to download more data";
+"RefreshTableFootView_Pulling_update"="Release button to update";
+"RefreshTableFootView_Normal_load"="Scroll up to download more data";
+"RefreshTableFootView_Normal_update"="Scroll up to update";
+"RefreshTableFootView_Loading"="Loading";
+//
+/*SignInShareRangeViewController.m*/
+"SignInShareRangeViewController_labelLeft_text"="Maximun three selections";
+"SignInShareRangeViewController_navigationItem_title"="Select Group";
+"SignInShareRangeViewController_searchBar_placeHolder"="Searching team ";
+"SignInShareRangeViewController_Alert"="Maximum to select three teams";
+//
+/*XTBaseLogic.m*/
+"XTBaseLogic_hud.labelText_doing"="Processing ";
+"XTBaseLogic_hud.labelText_success"="Completed";
+"XTBaseLogic_alert_msg"="Voice conference have been closed";
+//
+/*KDActionPathsConfigurator.m*/
+"KDActionPathsConfigurator_Err"="URL cannot be find";
+//
+/*KDAssetCollectionViewController.m*/
+"KDAssetCollectionViewController_confirm"="Confirm";
+"KDAssetCollectionViewController_send"="Sending";
+"KDAssetCollectionViewController_look"="Preview";
+"KDAssetCollectionViewController_return"="Back";
+"KDAssetCollectionViewController_cancel"="Cancel";
+"KDAssetCollectionViewController_alter"="Maximum upload 9 pictures ";
+"KDAssetCollectionViewController_tips"="Prompt";
+"KDAssetCollectionViewController_NoSuport"="Photo Stream does not support previews";
+"KDAssetCollectionViewController_sure"="Confirm";
+"KDAssetCollectionViewController_Done"="Send";
+"KDAssetCollectionViewController_Done_percent"="Send(%ld)";
+//
+/*KDCommon.h*/
+"KDCommon_name"="Cloud Hub";
+//
+/*KDCommon.m*/
+"KDCommon_one"="Monday";
+"KDCommon_two"="Tuesday";
+"KDCommon_three"="Wednesday";
+"KDCommon_four"="Thursday";
+"KDCommon_five"="Friday";
+"KDCommon_six"="Saturday";
+"KDCommon_seven"="Sunday";
+//
+/*KDDBManager.m*/
+"KDDBManager_NoFind"="createV2.sql cannot be find ";
+//
+/*KDDMMessageDAOImpl.m*/
+"KDDMMessageDAOImpl_share_picture"="Share pictures";
+//
+/*KDDocumentIndicatorView.m*/
+"KDDocumentIndicatorView_doc"="There are %d documents, click View";
+//
+/*KDDraft.m*/
+"KDDraft_iPhone"="IPhone client ";
+"KDDraft_iPad"="IPad client";
+"KDDraft_NoVideo"="No video";
+//
+/*KDEvent.h*/
+"KDEvent_phone_number"="Mobile phone number ";
+"KDEvent_email"="Email";
+"KDEvent_Registered_invite"="Registeration by invitation ";
+"KDEvent_Registered_person"="Self-registration";
+"KDEvent_work_first"="The first working group";
+"KDEvent_work_other"="Other working group";
+"KDEvent_admin"="Administrator";
+"KDEvent_user_common"="Common user";
+"KDEvent_NoAudit No"="Not required Verification ";
+"KDEvent_Audit"="Required Vertification ";
+"KDEvent_Plus"="plus";
+"KDEvent_SideBar"="Sidebar";
+"KDEvent_Contact"="link";
+"KDEvent_WeChat"="WeChat";
+"KDEvent_Link"="Link";
+"KDEvent_FaceToFace"="Facing each other";
+"KDEvent_TODO_First"="The agency's first";
+"KDEvent_Weibo"="MicroBlog";
+"KDEvent_Msg"="SMS";
+"KDEvent_Menu"="Menu";
+"KDEvent_NO"="Disable";
+"KDEvent_YES"="Enable";
+"KDEvent_Organization"="Departments";
+"KDEvent_Depart_Me"="My department";
+"KDEvent_Collect"="Save";
+"KDEvent_Session_Have"="Existing groups";
+"KDEvent_Contact_Recenten"="Recent contacts";
+"KDEvent_Search"="Search";
+"KDEvent_List_Choice"="List Selection ";
+"KDEvent_application"="Single Message";
+"KDEvent_msg_single"="Single Message";
+"KDEvent_msg_multi"="Message of Multiplayer ";
+"KDEvent_Public"="Press and news";
+"KDEvent_txt"="Text";
+"KDEvent_Language"="Voice ";
+"KDEvent_Picture"="Pictures";
+"KDEvent_Doc"="Documents";
+"KDEvent_Emio"="Expression";
+"KDEvent_Msg_LongPress"="Press the news";
+"KDEvent_click_key"="Keyword Click ";
+"KDEvent_On"="Turn on ";
+"KDEvent_Off"="Turn off";
+"KDEvent_List"="List ";
+"KDEvent_Recommend"="Recommendation";
+"KDEvent_Chinese"="Chinese";
+"KDEvent_PinYin"="Phonics";
+"KDEvent_Tel"="Telephone ";
+"KDEvent_User_Detail"="User details";
+"KDEvent_Session_Start"="Voice call";
+"KDEvent_Session_addPerson"="Session added";
+"KDEvent_Session_Select_Person"="Initiate the session selection";
+//"="default";
+//"="Photo Gallery";
+/*KDExpressionInputView.m*/
+"KDExpressionInputView_Default"="Default";
+//
+/*KDImagePickerController.m*/
+"KDImagePickerController_Photo"="Pictures";
+"KDImagePickerController_NoPermission"="Does not have permission to access.";
+"KDImagePickerController_Tips"="Go to System \"Settings> Privacy> Photos \", \n \"%@ allow\" access your photos.";
+//
+/*
+ KDSeriveSignInActionHander.m
+ */
+"KDSeriveSignInActionHander_weibo_hall"="MicroBlog Hall";
+//
+/*
+ KDStatus.m
+ */
+"KDStatus_title"="Request Completed";
+//
+/*KDStatusDataset.m*/
+"KDStatusDataset_weibo_delete"="this MicroBlog is deleted";
+//
+/*KDTipView.m*/
+"KDTipView_fail"="MicroBlog failed, Save to Drafts";
+//
+/*KDUnreadManager.m*/
+"KDUnreadManager_alter_msg"="Password or privileges are changed,Please login again!";
+//
+/*KDVersionCheck.m*/
+"KDVersionCheck_alter_title"="New version is avialable";
+"KDVersionCheck_cancel"="Ignore this version";
+"KDVersionCheck_update"="Update";
+//
+/*NSDate+Additions.h*/
+"NSDate+Additions_Taday"="HH:mm";
+"NSDate+Additions_Yestoday"="Yesterday HH:mm";
+//
+/*NSDate+Additions.m*/
+"NSDate+Additions_Week"="Week";
+"NSDate+Additions_Weekly"="Week";
+"NSDate+Additions_Day"="Today";
+"NSDate+Additions_Year"="Year, Month, day";
+"NSDate+Additions_Date"="Month, day";
+//
+/*NSString+Additions.m*/
+"NSString+Additions_regx"="People";
+"NSString+Additions_Me"="I am here";
+"NSString+Additions_Me_In"="I am here";
+//
+/*KDCommentCell.m*/
+"KDCommentCell_delete_replay"="Delete reply";
+"KDCommentCell_delete_sure"="Confirm Delete%@ \"";
+"KDCommentCell_cancel"="failed to delete";
+"KDCommentCell_delete"="Delete";
+"KDCommentCell_delete_fail"="Delete failure ";
+//
+/*KDDMThreadViewController.m*/
+"KDDMThreadViewController_Creat"="New Email";
+"KDDMThreadViewController_New"="New message";
+"KDDMThreadViewController_NoPerson"="Email User is empty ";
+//
+/*KDDocumentListViewController.m*/
+"KDDocumentListViewController_look"="There is %ddoucments, Click Views";
+//
+/*KDDocumentMoreCell.m*/
+"KDDocumentMoreCell_Doc"="There is %ddoucments remain ";
+//
+/*KDDocumentPreviewViewController.m*/
+"KDDocumentPreviewViewController_err_download"="Download failure ";
+"KDDocumentPreviewViewController_err_open"="Open File Error";
+//"="Reply%@ replies: \";
+/*KDDocumentsAllListViewController.m*/
+//"="%@ From the group:%@";
+"KDDocumentsAllListViewController_weibo"="From%@%@";
+"KDDocumentsAllListViewController_email_short"="Mail document";
+//
+/*KDLayouter.m*/
+"KDLayouter_me"="Me";
+"KDLayouter_replay"="Reply%@ replies:";
+"KDLayouter_group_from"="%@ From the group:%@";
+"KDLayouter_from"="%@  from %@";
+//"="From%@%@";
+/*KDWebViewController.m*/
+"KDWebViewController_return"="Return";
+//
+/*KWIAboutVCtrl.m*/
+"KWIAboutVCtrl_About"="About";
+//
+/*KWIAppDelegate.m*/
+"KWIAppDelegate_title"="Upgrade to %@ version";
+"KWIAppDelegate_new_feature"="%@ Version of the new features \n";
+"KWIAppDelegate_suggest"="Recommended updates";
+"KWIAppDelegate_must"="Required updated or lead to usage abnormal ";
+"KWIAppDelegate_undate"="Upgrade";
+//
+/*KWICommentCell.m*/
+"KWICommentCell_reply"="Reply %@";
+//
+/*KWICommentTLVCtrl.m*/
+"KWICommentTLVCtrl_reply"="Reply";
+//
+/*KWIConversationVCtrl.m*/
+"KWIConversationVCtrl_send"="send to: %@";
+"KWIConversationVCtrl_no"="Gone";
+"KWIConversationVCtrl_share_picture"="Share pictures";
+//
+/*KWIElectionCell.m*/
+"KWIElectionCell_Multi_Select"="(Multiple choice)";
+"KWIElectionCell_Radio"="Choice";
+"KWIElectionCell_Result"="View the vote results";
+"KWIElectionCell_Join"="A total of %d participants";
+"KWIElectionCell_NoPerson"="No votes yet";
+"KWIElectionCell_Err"="Something went wrong, voting is not successful, try again later.";
+"KWIElectionCell_Sure"="Confirm";
+"KWIElectionCell_Vote_Success"="Voting success";
+"KWIElectionCell_Result_Share"="share the voting results";
+"KWIElectionCell_No"="No, Thank You";
+"KWIElectionCell_Share"="Share";
+//
+/*KWIFullImgVCtrl.m*/
+"KWIFullImgVCtrl_Save"="Saved to album";
+//"="Members microblogging%d%";
+/*KWIGroupCell.m*/
+//"="You have not joined any group";
+"KWIGroupCell_Tip_1"="Group member%d MicroBlog%d";
+//"="my focus";
+/*KWIGroupInfVCtrl.m*/
+//"="All dynamic";
+"KWIGroupInfVCtrl_No"="No announcement";
+//
+/*KWIGroupLsVCtrl.m*/
+"KWIGroupLsVCtr_NoJoin"="You have not joined any group";
+//"="Microblogging from the group";
+/*KWIGroupStreamVCtrl.m*/
+//"="my focus";
+"KWIGroupStreamVCtrl_From"="Meibo from the group";
+//
+/*KWIHomeTLVCtrl.m*/
+"KWIHomeTLVCtrl_MyAttention"="My focus";
+"KWIHomeTLVCtrl_All"="All dynamic";
+"KWIHomeTLVCtrl_WeiBo"="Through a web search";
+//"="Short Post";
+/*KWIMentionSelectorVCtrl.m*/
+//"="You have not received any%@";
+"KWIMentionSelectorVCtrl_FromNetWork"="Searching through a web ";
+//
+/*KWIMentionTLVCtrl.m*/
+"KWIMentionTLVCtrl_Mention"="Mention";
+//
+/*KWIMessageTLVCtrl.m*/
+"KWIMessageTLVCtr_Msg"="Short Post";
+//
+/*KWIMPanelVCtrl.m*/
+"KWIMPanelVCtrl_Tip_1"="You have not received any%@";
+//
+/*KWIPeopleVCtrl.m*/
+"KWIPeopleVCtrl_No"="The user does not exist";
+"KWIPeopleVCtrl_ Error"="Get data error";
+//"="give\";
+//
+/*KWIPostVCtrl.m*/
+"KWIPostVCtrl_Tip_1"="Give";
+"KWIPostVCtrll_Tip_2"="Reply to comment";
+"KWIPostVCtrll_Tip_3"="Reply %@ Comments:%@";
+"KWIPostVCtrll_Fail"="Send MicroBlog failure, the server error";
+"KWIPostVCtrll_Send"="sending...";
+"KWIPostVCtrll_ForwardWB"="Forward MicroBlog";
+"KWIPostVCtrll_SendNewWB"="MicroBlog Sending ⋯";
+"KWIPostVCtrll_NewWBFail"="New MicroBlog sent.";
+"KWIPostVCtrll_SendSuccess"="MicroBlog sent successfully.";
+"KWIPostVCtrll_ForwarWBSend"="Forward MicroBlog Sending ...";
+"KWIPostVCtrll_ForwardWBFail"="Forward MicroBlog sent.";
+"KWIPostVCtrll_ForwardWBSucess"="Forward MicroBlog sent successfully";
+"KWIPostVCtrll_ReplyWBSend"="Reply MicroBlog Sending ...";
+"KWIPostVCtrll_ReplyWBFail"="Reply MicroBlog sent.";
+"KWIPostVCtrll_ReplyWBSuccess"="Reply MicroBlog sent successfully.";
+"KWIPostVCtrll_CommentSend"="Reply to comment Sending ...";
+"KWIPostVCtrll_CommentSendFail"="Reply to comment sent failure";
+"KWIPostVCtrll_CommentSendSuccess"="Reply to comment sent successfully.";
+"KWIPostVCtrll_Delete"="MicroBlog has been deleted";
+"KWIPostVCtrll_ForwardSuceess"="Forwarding success";
+"KWIPostVCtrll_InputTop"="# # Please enter a topic";
+"KWIPostVCtrll_Top"="Please enter a topic";
+//"="Evaluation";
+/*KWIRateVCtrl.m*/
+//"="minimize";
+"KWIRateVCtrl _Comment"="Evaluation";
+//"="minimize";
+/*KWIRootVCtrl.m*/
+//"="Enter search keywords";
+"KWIRootVCtrl_Close"="Close";
+"KWIRootVCtrl_Min"="minimize";
+//
+/*KWISearchVCtrl.m*/
+"KWISearchVCtrl_KeyWord"="Enter keywords for searching";
+"KWISearchVCtrl_SearchWB"="Evaluation of a";
+"KWISearchVCtrl_Find"="Exit the current account";
+//
+/*KWISettingsVCtrl.m*/
+"KWISettingsVCtrl_Finish"="Completed";
+"KWISettingsVCtrl_Setting"="Configuration";
+"KWISettingsVCtrl_Comment"="Evaluation of a";
+"KWISettingsVCtrl_Logout"="Exit the current account";
+"KWISettingsVCtrl_LessFour"="Username not more than 20 English letters or 10 characters";
+"KWISettingsVCtrl_Tip_1"="Username not more than 20 English characters or 10 characters";
+"KWISettingsVCtrl_NoSpace"="Post no more than 120 letters or 60 characters";
+"KWISettingsVCtrl_Tip_2"="Post no more than 120 characters or 60 characters";
+"KWISettingsVCtrl_Tip_3"="Post no more than 40 English characters or 20 characters";
+"KWISettingsVCtrl_InfoUpdate"="Account information has been updated";
+"KWISettingsVCtrl_Tip_4"="Replace Avatar";
+"KWISettingsVCtrl_SureLogout"="Confirm exit";
+"KWISettingsVCtrl_Logout"="Replace Avatar";
+"KWISettingsVCtrl_ChangePhoto"="Replace Avatar";
+"KWISettingsVCtrl_LocalPhoto"="Local Photos";
+"KWISettingsVCtrl_Photo"="Head for good";
+"KWISettingsVCtrl_ChangeOK"="Avatar Replaced";
+//
+/*KWISigninVCtrl.m*/
+"KWISigninVCtrl_LoginFail"="Oh, Login failed";
+"KWISigninVCtrl_Connect"="Server Disconnected";
+"KWISigninVCtrl_ResetCode"="Mail or password error, try again Or visit kdMicroBlog.com to reset your password";
+"KWISigninVCtrl_Error"="Wrong username or password";
+"KWISigninVCtrl_Agreetment"="Please agree to the user agreement of Cloud House";
+//"="Reply @ microblogging%: \";
+/*KWIStatusContent.m*/
+//"="Reply <a style = \";
+//"KWIStatusContent_ReplyWB"="Reply @ MicroBlog%: \";
+//"KWIStatusContent_Reply"="Reply <a style = \";
+"KWIStatusContent_Pic"=" [%d image]";
+"KWIStatusContent_Doc"=" [%d Document]";
+//"="Reply%d";
+/*KWIStatusVCtrl.m*/
+//"="Forwarding%d";
+"KWIStatusVCtrl_Reply"="Reply%d";
+"KWIStatusVCtrl_Forward"="Forwarding%d";
+"KWIStatusVCtrl_Forward"="The vote has been deleted";
+"KWIStatusVCtrl_VoteDel"="The vote has been deleted";
+"KWIStatusVCtrl_WBDel"="Delete MicroBlog";
+"KWIStatusVCtrl_Report"="Report this MicroBlog";
+"KWIStatusVCtrl_NoReply"="No one reply";
+"KWIStatusVCtrl_NotForward"="No one forward";
+//"="Load more topics microblogging failure";
+/*KWIThreadCell.m*/
+//"
+//"The polls have closed and see everyone's choice";
+"KWIThreadCell_Count"="user";
+//
+/*KWITrendStreamVCtrl.m*/
+"KWITrendStreamVCtrl_Top"="topic:";
+"KWITrendStreamVCtrl_LoadMore"="Load more topics from MicroBlog is failure";
+//"="The polls have closed and see everyone's choice";
+/*KWIWelcomeElectionV.m*/
+//"="Viewing";
+"KWIWelcomeElectionV_"="The vote have closed and see everyone's choice";
+"KWIWelcomeElectionV_Check"="Viewing";
+"KWIWelcomeElectionV_Choose"="Vote and see everyone's choice";
+//
+/*NSError+KWIExt.m*/
+"NSError_Tip_1"="Try again later";
+"NSError_Tip_2"="Server disconnect, no network connection";
+"NSError_Tip_3"="Server disconnect. May be caused by slow or no network connection ";
+//
+/*adressViewController.m*/
+"adressViewController_Choose"="Select Location";
+"adressViewController_CurrentLocaltion"="Current location";
+"adressViewController_Send"="unknown mistake";
+//"="Leadership lecture";
+/*BOSResultDataModel.m*/
+"BOSResultDataModel_Error"="unknown  error";
+//"="Leadership lecture";
+/*BOSSetting.m*/
+"BOSSetting_Speak"="Leadership lecture";
+
+//
+/*BubbleTableViewCell.m*/
+"BubbleTableViewCell_Tip_1"="click and try";
+"BubbleTableViewCell_Tip_2"="What's News";
+"BubbleTableViewCell_Tip_3"=" from %@";
+"BubbleTableViewCell_Tip_4"="unread";
+"BubbleTableViewCell_Tip_5"="%ld unread";
+"BubbleTableViewCell_Tip_6"="Copy";
+"BubbleTableViewCell_Tip_7"="Forward";
+"BubbleTableViewCell_Tip_8"="Withdraw";
+"BubbleTableViewCell_Tip_9"="To task";
+"BubbleTableViewCell_Tip_10"="Save";
+"BubbleTableViewCell_Tip_11"="Share";
+"BubbleTableViewCell_Tip_12"="Share";
+"BubbleTableViewCell_Tip_share_dynamic"="Share to dynamic";
+"BubbleTableViewCell_Tip_13"="Delete";
+"BubbleTableViewCell_Tip_14"="Warm tip";
+"BubbleTableViewCell_Tip_15"="Photo and documents that not yet downloaded can not be forwarded!";
+"BubbleTableViewCell_Tip_16"="No document can not download the pictures and share!";
+"BubbleTableViewCell_Tip_17"="Photo and documents that not yet downloaded can not be shared!";
+"BubbleTableViewCell_Tip_18"="Cancel";
+"BubbleTableViewCell_Tip_19"="Share to other";
+"BubbleTableViewCell_Tip_reply"="Reply";
+"BubbleTableViewCell_Tip_mark"="Mark";
+"BubbleTableViewCell_Tip_toLightApp"="To App";
+"message_bg_traceless_left_normal"="message_bg_traceless_left_normal_en";
+"message_bg_traceless_left_press"="message_bg_traceless_left_press_en";
+"message_bg_traceless_right_normal"="message_bg_traceless_right_normal_en";
+"message_bg_traceless_right_press"="message_bg_traceless_right_press_en";
+
+//
+/*CheckVersionService.m*/
+"CheckVersionService_Sure"="I know";
+"CheckVersionService_Update"="Upgraded";
+//
+/*ContactUtils.m*/
+"ContactUtils_Tip_1"="'Yesterday 'HH:mm";
+"ContactUtils_Tip_2"="'The day before yesterday 'HH:mm";
+"ContactUtils_Tip_3"="'Yesterday'";
+"ContactUtils_Tip_4"="'Sunday'";
+"ContactUtils_Tip_5"="'Monday'";
+"ContactUtils_Tip_6"="'Tuesday'";
+"ContactUtils_Tip_7"="'Wednesday'";
+"ContactUtils_Tip_8"="'Thursday'";
+"ContactUtils_Tip_9"="'Friday'";
+"ContactUtils_Tip_10"="'Saturday'";
+"ContactUtils_Tip_11"="Today";
+"ContactUtils_Tip_12"="Yesterday";
+"ContactUtils_Tip_13"="The day before yesterday";
+"ContactUtils_Tip_14"="Month, Day";
+"ContactUtils_Tip_15"="Last year, MM-dd";
+"ContactUtils_Tip_16"="yyyy Year MM month dd day";
+//
+/*KDAgoraCallView.m*/
+"KDAgoraCallView_Tip_1"="Ignore";
+"KDAgoraCallView_Tip_2"="answer";
+"KDAgoraCallView_Tip_3"="%@ In [%@] voice conference";
+"KDAgoraCallView_Tip_4"="[%@] Voice conference";
+"KDAgoraCallView_Tip_5"="%@ Voice conference";
+"KDAgoraCallView_Tip_6"="User Voice conference";
+//
+/*KDAgoraSDKManager.m*/
+"KDAgoraSDKManager_Tip_1"="You account has been logined in another device";
+"KDAgoraSDKManager_Tip_2"="No network, you have exited meeting";
+"KDAgoraSDKManager_Tip_3"="The current network is unavailable, you have left the conference";
+"KDAgoraSDKManager_Tip_4"="%@ Issuer close the conference";
+"KDAgoraSDKManager_Tip_5"="Issuer close the conference";
+"KDAgoraSDKManager_Tip_6"="%@ Issuer mute the sound , anyone who need to speak can mute the sound";
+"KDAgoraSDKManager_Tip_7"="%@ sharing files, are you sure to join";
+"KDAgoraSDKManager_Tip_15"="%@ Is closed meetings and to participate in or initiate the current session";
+"KDAgoraSDKManager_Tip_8"="Closed conference and to participate in or initiate the current session";
+"KDAgoraSDKManager_Tip_9"="%@ Is closed meetings and to participate in or initiate an active voice session";
+"KDAgoraSDKManager_Tip_9"="No";
+"KDAgoraSDKManager_Tip_10"="Yes";
+"KDAgoraSDKManager_Tip_11"="Create a conference fail";
+"KDAgoraSDKManager_Tip_12"="Closed conference and to participate in or initiate the current session";
+"KDAgoraSDKManager_Tip_13"="Leave conference and to participate in or initiate the current session";
+"KDAgoraSDKManager_Tip_14"="Opened a three-hour meeting, should be rest for a minutes. ";
+//
+/*KDAgoraVoiceBanner.m*/
+"KDAgoraVoiceBanner_Record"="Recording";
+//
+/*KDChooseContentCollectionViewController.m*/
+"KDChooseContentCollectionViewController_All"="Select all";
+"KDChooseContentCollectionViewController_NoDataTips"="You have no permission to chat with the member in the group!";
+//
+/*KDChooseInviteHintView.m*/
+"KDChooseInviteHintView_InVite"="Invite now";
+//
+/*KDChooseOrganizationViewController.m*/
+"KDChooseOrganizationViewController_Close"="Close";
+"KDChooseOrganizationViewController_Goack"="Back";
+"KDChooseOrganizationViewController_Sure"="Confirm";
+"KDChooseOrganizationViewController_Choosed"="Selected:";
+"KDChooseOrganizationViewController_Waiting"="Please wait...";
+"KDChooseOrganizationViewController_Error"="From the current selection";
+"KDChooseOrganizationViewController_Setting"="Settings";
+"KDChooseOrganizationViewController_Organtion"="Departments";
+"KDChooseOrganizationViewController_ChooeseFromCrurrent"="From the current selection";
+"KDChooseOrganizationViewController_Choose"="From the following department";
+"KDChooseOrganizationViewController_Unallocaled"="Unassigned staff of department (%d user)";
+"KDChooseOrganizationViewController_UnallocaledPerson"="Unallocated personnel";
+"KDChooseOrganizationViewController_ChooseValid"="Please select a valid department";
+//
+/*KDCommunityShareView.m*/
+"KDCommunityShareView_News"="News";
+"KDCommunityShareView_File"="Documents";
+"KDCommunityShareView_Chat"="Chat";
+"KDCommunityShareView_Pic"="Pictures";
+"KDCommunityShareView_Share"="share %@ to %@";
+"KDCommunityShareView_Something"="And you say something";
+//互联网企业安全体系建设.doc"="Internet Business Security System .doc";
+"KDCommunityShareView_ShareFile"="Share file";
+//
+/*KDFileInMessageTableViewCell.m*/
+"KDFileInMessageTableViewCell_Refresh"="It is for you to refresh";
+//
+/*KDFileInMessageViewController.m*/
+"KDFileInMessageViewController_File"="Group files";
+"KDFileInMessageViewController_UpLoad"="Upload ";
+"KDFileInMessageViewController_Current"="Recent ";
+"KDFileInMessageViewController_Doc"="Documents";
+"KDFileInMessageViewController_Other"="other";
+//
+//KDGestureEnterViewController.m
+"KDGestureEnterViewController_Tip"="Prompt";
+"KDGestureEnterViewController_Five_ReLogin"="Gesture password has been entered more than 5 times, please re-login to bind";
+"KDGestureEnterViewController_ReLogin"="Re-register";
+"KDGestureEnterViewController_ForgetCode"="Forget Gesture Password";
+"KDGestureEnterViewController_ForgetCode_Relogin"="Forgot your gesture password, you need to login again";
+"KDGestureEnterViewController_Tip_1"="Gesture password has been entered more than 5 times, please re-login Login";
+"KDGestureEnterViewController_Tip_2"="Wrong password, you can then enter % n times";
+"KDGestureEnterViewController_Tip_3"="Wrong password";
+//
+/*KDGestureSettingViewController.m*/
+"KDGestureSettingViewController_Edit"="Modify gesture password";
+"KDGestureSettingViewController_SettingCode"="Set pattern";
+"KDGestureSettingViewController_Draw"="Draw an unlock pattern";
+"KDGestureSettingViewController_Setting"="Configuration";
+"KDGestureSettingViewController_CancelCode"="Cancel password";
+"KDGestureSettingViewController_Tip_1"="Cancelling your password will compromise your account security, are you sure you want to cancel it?";
+"KDGestureSettingViewController_Tip_2"="Cancel";
+"KDGestureSettingViewController_Tip_3"="Confirm";
+"KDGestureSettingViewController_Tip_4"="Draw at least four unlock pattern";
+"KDGestureSettingViewController_Tip_5"="Draw an unlock pattern again";
+"KDGestureSettingViewController_Tip_6"="Modify password successfully gesture";
+"KDGestureSettingViewController_Tip_7"="Setting password success gesture";
+"KDGestureSettingViewController_Reset"="Patterns do not match, please try again";
+//
+/*KDGroupFileTableView.m*/
+"KDGroupFileTableView_Unread"="Unread";
+"KDGroupFileTableView_Readed"="Read";
+"KDGroupFileTableView_NoFile"="No document found";
+"KDGroupFileTableView_UploadFile"="upload document";
+"KDGroupFileTableView_LoadFail"="Loading fail";
+//
+/*KDInviteHintView.m*/
+"KDInviteHintView_Tip"="I know, do not bother me";
+//
+/*KDMultiVoiceViewController.m*/
+"KDMultiVoiceViewController_Tip_1"="Mute all";
+"KDMultiVoiceViewController_Tip_2"="Hide";
+"KDMultiVoiceViewController_Tip_3"="Meeting in progress";
+"KDMultiVoiceViewController_Tip_4"="Joining the meeting";
+"KDMultiVoiceViewController_Tip_5"="We are entering the meeting";
+"KDMultiVoiceViewController_Tip_6"="Initiated PPT shared playlist";
+"KDMultiVoiceViewController_Tip_7"="End meeting";
+"KDMultiVoiceViewController_Tip_8"="Leave the meeting";
+"KDMultiVoiceViewController_Tip_9"="After you exit the meeting all others will be kicked out";
+"KDMultiVoiceViewController_Tip_10"="Whether to leave or close the current session";
+"KDMultiVoiceViewController_Tip_11"="Whether to leave the current session";
+"KDMultiVoiceViewController_Tip_12"="Exit";
+"KDMultiVoiceViewController_Tip_13"="%@ Leave the conference";
+"KDMultiVoiceViewController_Tip_14"="%@ %@ Leave the conference";
+"KDMultiVoiceViewController_Tip_15"="%@ Enter the conference";
+"KDMultiVoiceViewController_Tip_16"="Successful connection session";
+"KDMultiVoiceViewController_Tip_17"="Reconnecting Meeting";
+"KDMultiVoiceViewController_Tip_18"="You have successfully joined the meeting";
+"KDMultiVoiceViewController_Tip_19"="In order to better meeting results, and then confirm quiet open mic";
+"KDMultiVoiceViewController_Tip_20"="open mic";
+"KDMultiVoiceViewController_Tip_21"="keep silent";
+"KDMultiVoiceViewController_Tip_22"="You have successfully entered the meeting";
+"KDMultiVoiceViewController_Tip_23"="You have successfully quit Meeting";
+"KDMultiVoiceViewController_Tip_24"="Failure to join the meeting";
+"KDMultiVoiceViewController_Tip_26"="End of the meeting";
+"KDMultiVoiceViewController_Tip_27"="fail to enter the conference";
+"KDMultiVoiceViewController_Tip_28"="Conference sponsors has ended";
+"KDMultiVoiceViewController_Tip_29"="Reconnection in ...";
+"KDMultiVoiceViewController_Tip_30"="The current network is unavailable, check your network settings";
+"KDMultiVoiceViewController_Tip_31"="%@ Is sharing files";
+"KDMultiVoiceViewController_Tip_32"="You turn on the mute function for all members";
+"KDMultiVoiceViewController_Tip_33"="Please wait, join in voice conference";
+"KDMultiVoiceViewController_Tip_34"="I'm sharing files";
+"KDMultiVoiceViewController_Tip_35"="Start recording";
+"KDMultiVoiceViewController_Tip_36"="End recording";
+"KDMultiVoiceViewController_Tip_37"="Failed to start recording";
+"KDMultiVoiceViewController_Tip_38"="Failed to end recording";
+//
+/*KDNoItemView.m*/
+"KDNoItemView_Tip_1"="Team members not yet Oh, to invite members to join it ~";
+"KDNoItemView_Tip_2"="Team members not yet Oh,";
+//
+/*KDNotOrganizationView.m*/
+"KDNotOrganizationVie_Tip_1"="Setting organizational structure, easy to search colleagues.";
+"KDNotOrganizationVie_Tip_2"="Follow-up in the sidebar - Set the \"Administrator Assistant\" in \ n can also log on the computer page \ nhttp: //manage.kdMicroBlog.com \ n Bulk Import Organization";
+"KDNotOrganizationVie_Tip_3"="Setting ring work organization, more easy to find colleagues. \n You can notify the administrator to set up the organizational structure information.";
+"KDNotOrganizationVie_Tip_4"="Notify the administrator";
+"KDNotOrganizationVie_Tip_5"="Are you sure you want to send a message to the administrator Upcoming organizational structure to set it";
+"KDNotOrganizationVie_Tip_6"="I know, do it later";
+//
+/*KDOrganiztionCell.m*/
+"KDOrganiztionCell_Edit"="Edit";
+//
+/*KDPersonCell.m*/
+"KDPersonCell_Charge"="Person in charge";
+//
+/*KDPersonFooterBar.m*/
+"KDPersonFooterBar_Send"="Send message";
+"KDPersonFooterBar_Phone"="Make a telephone call";
+//
+/*KDPubAccDetailViewController.m*/
+"KDPubAccDetailViewController_Detail"="Account details";
+"KDPubAccDetailViewController_Book"="Subscribe now";
+"KDPubAccDetailViewController_Tip"="Notifications";
+"KDPubAccDetailViewController_View_History"="Check history";
+"KDPubAccDetailViewController_Cancel"="Unlike";
+"KDPubAccDetailViewController_Wait"="Please wait";
+"KDPubAccDetailViewController_Fail"="Fail";
+"KDPubAccDetailViewController_Book_Cancel_Success"="Unsubscribe Success";
+"KDPubAccDetailViewController_Book_Cancel_Fail"="Failed to unsubscribe";
+"KDPubAccDetailViewController_Book_Success"="Subscribe to success";
+"KDPubAccDetailViewController_Book_Fail"="Subscribe to fail";
+//
+/*KDPubAccFooterView.m*/
+"KDPubAccFooterView_Add"="Add";
+//
+/*KDPubAccHeaderView.m*/
+"KDPubAccHeaderView_Introduce"="Features introduction";
+//
+/*KDPublicTopCell.m*/
+"KDPublicTopCell_Public"="Public Account";
+"KDPublicTopCell_Voice"="[Audio]";
+"KDPublicTopCell_Pic"="[Picture]";
+//
+/*KDSearchForXTChatViewController.m*/
+"KDSearchForXTChatViewController_Search"="Search";
+//
+/*KDSubscribeViewController.m*/
+"KDSubscribeViewController_Read_subscribe"="Subscribe";
+"KDSubscribeViewController_Read"="Public Account";
+"KDSubscribeViewController_Refresh"="Refresh";
+"KDSubscribeViewController_Load"="Loading";
+"KDSubscribeViewController_My"="My subscriptions";
+"KDSubscribeViewController_Book"="Subscribe to more";
+//
+/*KDUserHelper.m*/
+"KDUserHelper_Error"="Parameter error";
+"KDUserHelper_Form_Error"="The return value is malformed";
+"KDUserHelper_CannotFind"="Unable to find employees";
+//
+/*KDVoiceButtonForMultiVoice.m*/
+"KDVoiceButtonForMultiVoice_Voice"="Speaker";
+"KDVoiceButtonForMultiVoice_UnVoice"="Mute";
+//
+/*KDWebViewController+JSBridge.m*/
+"JSBridge_Tip_1"="Unable to open applications or application is not installed";
+"JSBridge_Tip_2"="Remind";
+"JSBridge_Tip_3"="You do not have to install this application, whether to download and install";
+"JSBridge_Tip_4"="User information is empty";
+"JSBridge_Tip_5"="The parameter is incorrect";
+"JSBridge_Tip_6"="Switch failure";
+"JSBridge_Tip_7"="The work is set to ring by the administrator background maintenance, does not support mobile terminal invitation operation.";
+"JSBridge_Tip_8"="my position";
+"JSBridge_Tip_9"="Select photos fail";
+"JSBridge_Tip_10"="Deselect photos";
+"JSBridge_Tip_11"="Pictures";
+"JSBridge_Tip_12"="Take a photograph";
+"JSBridge_Tip_13"="No opt-out";
+"JSBridge_Tip_14"="%@ has no permission to use the camera, in the device's \"settings - Modify the camera \"inside - Privacy";
+"JSBridge_Tip_15"="URL is empty, unable to evoke the page";
+"JSBridge_Tip_16"="Selection failed";
+"JSBridge_Tip_17"="Cancel selection";
+//
+/*KDWebViewController+Share.m*/
+"KDWebViewController_Choose"="Please select";
+"KDWebViewController_Open"="Open in browser";
+//
+/*KDWebViewController.m*/
+"KDWebViewControlle_Error"="Sorry, you do not have access to the application Drive (TxT)";
+"KDWebViewControlle_Location"="Location location:%f,%f";
+//
+/*KDWpsTool.m*/
+"KDWpsTool_Tip_1"="No local installation WPS, whether to download WPS";
+"KDWpsTool_Tip_2"="Can not";
+"KDWpsTool_Tip_3"="Download WPS";
+"KDWpsTool_Tip_4"="Open the file data error, please download the file again!";
+"KDWpsTool_Tip_5"="enter wps app";
+"KDWpsTool_Tip_6"="%@ Failed to enter wps app";
+"KDWpsTool_Tip_7"="Error opening the file, please try again later!";
+"KDWpsTool_Tip_8"="The emulator does not support opening WPS";
+"KDWpsTool_Tip_9"="=====> Wps editing return end connected to the WPS";
+"KDWpsTool_Tip_10"="wps editing end, and exit back";
+"KDWpsTool_Tip_11"="=====> Errors and wps unlink%@";
+//
+/*PersonDataModel.m*/
+"PersonDataModel_Phone"="Mobile";
+"PersonDataModel_Tel"="Fixed line";
+"PersonDataModel_Email"="Email";
+//
+/*RecommendAppDetailViewController.m*/
+"RecommendAppDetailViewController_Detail"="Application details";
+"RecommendAppDetailViewController_Recommend"="Recommended Applications";
+"RecommendAppDetailViewController_Install"="I am using Kingdee Mobile Applications -%@, very good use, recommend you to experience. \ N Installation Address:%@";
+"RecommendAppDetailViewController_SendFail"="SMS Failed";
+//
+/*
+ RecommendAppListCell.m
+ */
+"RecommendAppListCell_Load"="Processing...";
+//
+/*
+ RecommendViewController+XT.m
+ */
+"RecommendViewController_All"="All";
+//
+/*
+ RecommendViewController.m
+ */
+"RecommendViewController_All"="All application";
+"RecommendViewController_Load"="Loading";
+//
+/*SignTOSViewController.m*/
+"SignTOSViewController_Tip"="Privacy and condition";
+"SignTOSViewController_Agree"="Agree";
+"SignTOSViewController_Read"="Please agree condition";
+"SignTOSViewController_Change"="Condition changed, please read";
+"SignTOSViewController_Fail"="Agreement was signed fails";
+//
+/*XTChatDetailViewController.m*/
+"XTChatDetailViewController_Chat_Info"="Chat message";
+"XTChatDetailViewController_Person"="%@(%d member)";
+"XTChatDetailViewController_Name"="Multiplayer Session Name";
+"XTChatDetailViewController_NewMsg_Tip"="New reminder";
+"XTChatDetailViewController_Logout"="Leave group";
+"XTChatDetailViewController_Delete_Fail"="Failed to delete";
+"XTChatDetailViewController_Delete_Success"="Delete successful";
+"XTChatDetailViewController_Total_Num"="Number of Group personnel";
+"XTChatDetailViewController_Add_Fail"="Add failed";
+"XTChatDetailViewController_Creat"="We are creating a group ...";
+"XTChatDetailViewController_Creat_Fail"="Creation Failed";
+"XTChatDetailViewController_Read"="Mark all as read";
+"XTChatDetailViewController_Clean"="Clear history";
+"XTChatDetailViewController_Success"="Successful!";
+"XTChatDetailViewController_Delete"="Are you sure to clear all message";
+"XTChatDetailViewController_Saver"="Make important groups";
+"XTChatDetailViewController_Group_Name"="Group name";
+"XTChatDetailViewController_transferManager"="Administration privileges";
+"XTChatDetailViewController_delete_person" = "Delete Members";
+"XTChatDetailViewController_delete_person_sure" = "Delete %@?";
+"XTChatDetailViewController_delete_persons_sure" = "Delete %@ and others(%lu peopel in total)?";
+"XTChatDetailViewController_transferManager_success"="Success Transfer Manager";
+"XTChatDetailViewController_transferManager_fail"="Fail Transfer Manager";
+"XTChatDetailViewController_total_members"="All Members";
+//
+/*XTChatSearchViewController.m*/
+"XTChatSearchViewController_Search"="Search:";
+"XTChatSearchViewController_Searching"="Searching";
+"XTChatSearchViewController_NoContent"="No search you're looking for, \ n Try another keyword";
+"XTChatSearchViewController_No_Chat"="No records of the conversation Oh!";
+"XTChatSearchViewController_Record"="%@ Recording session";
+"XTChatSearchViewController_No_Document"="The session is currently not documented Oh!";
+"XTChatSearchViewController_Document"="Document%@ session";
+//
+/*XTChatUnreadCollectionView.m*/
+"XTChatUnreadCollectionView_Person_Num"="%@(%lu)";
+"XTChatUnreadCollectionView_SendMsg"="Send SMS messages to remind people unread";
+"XTChatUnreadCollectionView_Sended"="SMS notification has been sent to";
+"XTChatUnreadCollectionView_Persons"="Wait people";
+"XTChatUnreadCollectionView_Send_Fail"="Send failed";
+
+//
+/*XTChatViewController.m*/
+"XTChatViewController_Name"="Create group name";
+"XTChatViewController_Speak"="Press and hold to talk";
+"XTChatViewController_GetInfo"="Charging message";
+//"默认""="Default";
+//"小裸""="Small naked";
+//"熊猫君""="Jun Panda";
+//"索拉""="Sola";
+"XTChatViewController_VoicMeeting"="Call";
+"XTChatViewController_Mention"="Mention";
+"XTChatViewController_Tip_1"="SMS notification";
+"XTChatViewController_Tip_2"="Direct launched";
+"XTChatViewController_Tip_3"="Meeting appointment ";
+"XTChatViewController_Tip_4"="Location";
+"XTChatViewController_Tip_5"="Confirm sharing to :%@";
+"XTChatViewController_Tip_6"=" Wait people?";
+"XTChatViewController_Tip_61"="(%lu)";
+"XTChatViewController_Tip_7"="When the current session only their own group can not send messages";
+"XTChatViewController_Tip_8"="You may want to send a picture";
+"XTChatViewController_Tip_9"="Me";
+"XTChatViewController_Tip_10"="Not record";
+"XTChatViewController_Tip_11"="Please Iphone's \ Settings - Privacy -. \"Options, allow access to your phone%@ Microphone\" Microphone ";
+"XTChatViewController_Tip_12"="Good";
+"XTChatViewController_Tip_13"="Talk time is too short";
+"XTChatViewController_Tip_14"="Pro,%@ is not using this application, quickly invite TA";
+"XTChatViewController_Tip_15"="Temporarily not Invitation";
+"XTChatViewController_Tip_16"="Invitation";
+"XTChatViewController_Tip_17"="Open Location Services \"Allow %@\" to determine your location";
+"XTChatViewController_Tip_18"="Location service unavailable";
+"XTChatViewController_Tip_19"="Sharing file";
+"XTChatViewController_Tip_20"="Save success";
+"XTChatViewController_Tip_21"="Please [my file] in the application - [my favorite] view.";
+"XTChatViewController_Tip_22"="Done";
+"XTChatViewController_Tip_23"="Saved ";
+"XTChatViewController_Tip_24"="Save failed";
+"XTChatViewController_Tip_25"="Create a task";
+"XTChatViewController_Tip_26"="Confirm Delete";
+"XTChatViewController_Tip_27"="Confirm Delete (%d)";
+"XTChatViewController_Tip_28"="Confirm forwarding";
+"XTChatViewController_Tip_oneByOneFoward"="One-by-One Foward (%d)";
+"XTChatViewController_Tip_mulForward"="Combine and Forward (%d)";
+"XTChatViewController_Tip_29"="Section does not download pictures and documents can not be forwarded!";
+"XTChatViewController_Tip_30"="No pictures downloaded not forward!";
+"XTChatViewController_Tip_31"="At the same time the number of forwarded messages not more than 9";
+"XTChatViewController_Tip_32"="Closed voice conference sponsor";
+"XTChatViewController_Tip_33"="Voice conference is in progress";
+"XTChatViewController_Tip_34"="%@ Initiate a voice conference underway";
+"XTChatViewController_Tip_35"="Do you have a %@ sponsored conference to be added";
+"XTChatViewController_Tip_36"="You have a meeting to be added";
+"XTChatViewController_Tip_37"="Conference call is in process⋯";
+"XTChatViewController_Tip_38"="Have read";
+"XTChatViewController_Tip_39"="99+ new messages";
+"XTChatViewController_Tip_40"="%d new messages";
+"XTChatViewController_Placeholder_Important"="Send sms or messages for free";
+"XTChatViewController_Placeholder_Notrace"="Send secrets";
+"XTChatViewController_Notrace_Msg"="Secrets";
+"XTChatViewController_Notrace_Picture"="Pictures";
+"XTChatViewController_Notrace_Camera"="Camera";
+"XTChatViewController_Notrace_Cancel"="Cancel";
+"XTChatViewController_Notrace_Tips"="[Secrets]One time to view,let go then disappear";
+//
+/*XTChooseContentViewController.m*/
+"XTChooseContentViewController_MyDepartment"="My department";
+"XTChooseContentViewController_Chat"="Existing groups";
+"XTChooseContentViewController_partner"="Business partners";
+"XTChooseContentViewController_ChooseContact"="Select contact(s)";
+"XTChooseContentViewController_Set_Admin"="Set administrator";
+"XTChooseContentViewController_Collect_Person"="Favorite contacts";
+"XTChooseContentViewController_Current_Person"="Recent contacts";
+"XTChooseContentViewController_Send"="Send";
+"XTChooseContentViewController_PersonNum"="(%d)";
+"XTChooseContentViewController_Send_Sure"="Determined to:";
+"XTChooseContentViewController_No_Share_Self"="Not Share for Yourself";
+"XTChooseContentViewController_Least_Two_Members"="At Least two Members";
+//
+/*XTCloudClient.m*/
+"XTCloudClient_GetInfo_Fail"="Failed to obtain the file list";
+"XTCloudClient_Fail"="Request failed";
+"XTCloudClient_Tip"="Tips";
+//
+/*XTContactContentCollectionController.m*/
+"XTContactContentCollectionController_MyCollect"="My favorites";
+//
+/*XTContactContentViewController.m*/
+"XTContactContentViewController_MulChat"="Important groups";
+"XTContactContentViewController_Tip_1"="Departments";
+"XTContactContentViewController_Tip_2"="Public Account";
+"XTContactContentViewController_Contact"="Contacts";
+"XTContactContentViewController_Search"="Search company wide";
+"XTContactContentViewController_ContactNum"="%d contacts";
+"XTContactContentViewController_Load"="Loading resources ...";
+"XTContactContentViewController_Error"="Network problems, check the network connection.";
+"XTContactContentViewController_Tip_3"="Remind";
+//
+/*XTContactGroupViewController.m*/
+"XTContactGroupViewController_Tip_1"="You can save in a multiplayer session to Make-important-groups option to save it here.";
+"XTContactGroupViewController_ImageName"="college_img_huihua_blank_en";
+//
+/*XTContactPersonViewCell.m*/
+"XTContactPersonViewCell_Admin"="Admin";
+"XTContactPersonViewCell_ParttimeJob"="Part time";
+//
+/*XTContentViewController.m*/
+"XTContentViewController_Wait"="Personnel data is initializing, please wait ...";
+//
+///*XTDataBaseDao.m*/
+//"成员包含：<font color="Member comprising:";
+//"电话"="Phone";
+//"@提及"="Mention";
+//
+/*XTFileDetailViewController.m*/
+"XTFileDetailViewController_Share"="Share";
+"XTFileDetailViewController_Detail"="Document details";
+"XTFileDetailViewController_DownLoad"="Download";
+"XTFileDetailViewController_Open_File"="Open the file ";
+"XTFileDetailViewController_DownLoaded"="Downloaded";
+"XTFileDetailViewController_NoSupport"="Not supprt to preview this document";
+"XTFileDetailViewController_Check_OnComputer"="Login Web version to download and view the attachment on your computer";
+"XTFileDetailViewController_CheckInfo"="Information inquiries ";
+"XTFileDetailViewController_CheckInfo_Fail"="Information inquiries fail";
+"XTFileDetailViewController_OK"="ok";
+"XTFileDetailViewController_File_Num"="Contribution%ld files";
+"XTFileDetailViewController_Forward"="Forwarder:%@";
+"XTFileDetailViewController_Collect_Cancel"="Cancel Bookmark";
+"XTFileDetailViewController_Collect_Cancel_Fail"="Failure";
+"XTFileDetailViewController_Collect_Cancel_Scuess"="Successful";
+"XTFileDetailViewController_DownLoad_Persent"="Downloaded %0.0f %%";
+"XTFileDetailViewController_DownLoad_Fail"="Download failed";
+"XTFileDetailViewController_Empty_File"="This file is corrupt, or the file is an empty file";
+"XTFileDetailViewController_Error_Retry"="Your network unnormal, please check the network and try again";
+"XTFileDetailViewController_Retry"="Service Exception, please try again later";
+"XTFileDetailViewController_Name"="Name";
+"XTFileDetailViewController_ZeroFile"="Contribution 0 files";
+"XTFileDetailViewController_Read_Total"="Total Read:%lu people";
+"XTFileDetailViewController_Read_Current"="Recent reading";
+//
+/*XTFileInGroupReadAndUnReadUsersController.m*/
+"XTFileInGroupReadAndUnReadUsersController_Tip_1"="Write a query to the data!";
+"XTFileInGroupReadAndUnReadUsersController_Tip_2"="Read a list of people";
+//
+/*XTFileListViewController.m*/
+"XTFileListViewController_Send"="Send mode";
+"XTFileListViewController_PreView"="Preview mode";
+"XTFileListViewController_MyUpload"="My uploads";
+"XTFileListViewController_Show"="The web conversation, uploaded document \n will be displayed here";
+"XTFileListViewController_Wait"="Please wait⋯";
+//
+/*XTFilePreviewViewController.m*/
+"XTFilePreviewViewController_No"="File path does not exist";
+"XTFilePreviewViewController_OtherApp"="Other applications open";
+"XTFilePreviewViewController_Collect"="Collection ...";
+//
+/*XTGroupTimelineViewController.m*/
+"XTGroupTimelineViewController_Choose"="Existing groups";
+//
+/*XTMAILHandle.m*/
+"XTMAILHandle_Email"="Your device does not support e-mail";
+"XTMAILHandle_Email_Fail"="Failed to send message";
+//
+/*XTModifyGroupNameViewController.m*/
+"XTModifyGroupNameViewController_ChatName"="Please enter the name of a group chat";
+//
+/*XTMyFileListViewController.m*/
+"XTMyFileListViewController_MyDownLoad"="My downloads";
+"XTMyFileListViewController_MyCollect"="My favorites";
+"XTMyFileListViewController_Record"="Mobile terminal, Web terminal downloaded files are recorded here";
+"XTMyFileListViewController_LongPress"="long press the document or click star button \n to bookmark the document";
+//
+/*XTMyFilesViewController.m*/
+"XTMyFilesViewController_Send_To_Computer"="File transfer";
+"XTMyFilesViewController_MyFile"="Files";
+"XTMyFilesViewController_ChooseFile"="Select file";
+"XTMyFilesViewController_Doing"="Loading";
+"XTMyFilesViewController_Reload"="Get recent file fails to reload touch";
+"XTMyFilesViewController_No_CurrentFile"="No document found";
+"XTMyFilesViewController_Current"="Recent documents";
+//
+/*XTMyHeaderViewCell.m*/
+"XTMyHeaderViewCell_Num"="Number";
+"XTMyHeaderViewCell_Photo"="Head portrait";
+//
+/*XTOrganizationViewController.m*/
+"XTOrganizationViewController_Admin"="Person in charge";
+"XTOrganizationViewController_Person"="Members";
+"XTOrganizationViewController_Down"="Sub-departments";
+"XTOrganizationViewController_More"="See more⋯";
+"XTOrganizationViewController_Up"="Hide";
+//
+/*XTPersonalFilesController.m*/
+"XTPersonalFilesController_Wait"="Please waiting";
+"XTPersonalFilesController_NoFile"="Not sharing files!";
+//
+/*XTPersonDetailHeaderView.m*/
+"XTPersonDetailHeaderView_Attention"="Follow %d";
+"XTPersonDetailHeaderView_Fun"="Follower %d";
+"XTPersonDetailHeaderView_WB"="MicroBlog %d";
+"XTPersonDetailHeaderView_Attented"="Followed";
+"XTPersonDetailHeaderView_Attent"="Follow";
+"XTPersonDetailHeaderView_Collect"="Favorited";
+"XTPersonDetailHeaderView_Collected"="Favorite";
+/*XTPersonDetailViewController.m*/
+"XTPersonDetailViewController_Contact_Detail"="Contact detail";
+"XTPersonDetailViewController_Attention_Cancel"="Cancel the like";
+"XTPersonDetailViewController_Attention"="Like immediately";
+"XTPersonDetailViewController_Send_Msg"="Send message";
+"XTPersonDetailViewController_Send_Tip"="Share contact";
+"XTPersonDetailViewController_Save"="Save contact to phone";
+"XTPersonDetailViewController_GetPersonInfo_Fail"="Failed to get personal information";
+"XTPersonDetailViewController_SendMsg"="Send message";
+"XTPersonDetailViewController_GetInfo_Fail"="Get information failed";
+"XTPersonDetailViewController_Contact"="contact method";
+"XTPersonDetailViewController_Msg"="Check information";
+"XTPersonDetailViewController_Organtion"="Organization";
+"XTPersonDetailViewController_Department"="Department";
+"XTPersonDetailViewController_Position"="Position";
+"XTPersonDetailViewController_NoNum"="Number not available";
+"XTPersonDetailViewController_Call"="Call";
+"XTPersonDetailViewController_Collect"="No exchange of information with the user, can not be favorites!";
+"XTPersonDetailViewController_Success"="Success";
+"XTPersonDetailViewController_Attention"="Follow";
+"XTPersonDetailViewController_Fun"="Follower";
+"XTPersonDetailViewController_WB"="MicroBlog";
+"XTPersonDetailViewController_Attention_Cancel_Success"="Successful";
+"XTPersonDetailViewController_Attention_Cancel_Fail"="Failure";
+"XTPersonDetailViewController_Attention_Success"="subscribe successful";
+"XTPersonDetailViewController_Attention_Fail"="Subscribe fail";
+"XTPersonDetailViewController_Fail"="Fail";
+//
+/*XTPubAcctUserChatListViewController.m*/
+"XTPubAcctUserChatListViewController_Speak"="Speaking";
+//
+/*XTPublicListViewController.m*/
+"XTPublicListViewController_EnterPrise"="Entriprise public account";
+"XTPublicListViewController_My"="Public account of subscription";
+"XTPublicListViewController_Book"="Public Account can be subscribed ";
+/* XTPubAccHistoryViewController.m */
+"XTPubAccHistoryViewController_NoHistory"="No history";
+"XTPubAccHistoryViewController_File_transfer"="File Transfer";
+
+//
+/*XTQRLoginViewController.m*/
+"XTQRLoginViewController_Sure"="I confirm login%@ Web Version";
+"XTQRLoginViewController_Login"="Login";
+"XTQRLoginViewController_ThirdPart"="In the upcoming third-party browser login system login \n Please confirm whether it is operating";
+"XTQRLoginViewController_BeSure"="Upcoming browser to log%@\n Please confirm whether my operation";
+//
+/*XTRecorderView.m*/
+"XTRecorderView_Up"="Slide up to cancel";
+"XTRecorderView_Release"="Release to cancel";
+//
+/*XTSelectPersonsView.m*/
+"XTSelectPersonsView_Begin"="Confirm";
+"XTSelectPersonsView_Max"="The number of group members should not be greater than%d ";
+//
+/*XTShareView.m*/
+"XTShareView_From"="Come from:";
+"XTShareView_Say"="Leave a message to a friend... ";
+"XTShareView_Send"="Sent";
+"XTShareView_GoBack"="Return%@ ";
+"XTShareView_Stay"="@ %@ ";
+//
+/*XTSMSHandle.m*/
+"XTSMSHandle_Msg"="Your device does not support text message";
+//
+/*XTTELHandle.m*/
+"TTELHandle_Call"="Your device does not support voice";
+//
+/*XTTimelineCell.m*/
+"XTTimelineCell_Me"="Me:";
+"XTTimelineCell_@"="[Someone@you]";
+"XTTimelineCell_Draft"="[draft] ";
+"XTTimelineCell_Meeting"="Meeting now";
+//
+/*XTTimelineViewController.m*/
+"XTTimelineViewController_Msg"="Messages";
+"XTTimelineViewController_CreatChat"="Group chat";
+"XTTimelineViewController_SendWB"="Post a MicroBlog";
+"XTTimelineViewController_Scan"="Scan";
+"XTTimelineViewController_Add"="Invitation";
+"XTTimelineViewController_SendToComputer"="Files transfer";
+"XTTimelineViewController_BindPhone"="Binding phone number, login more convenient, more secure account ";
+"XTTimelineViewController_BindEmail"="Binding email address,login more convenient, more secure account";
+"XTTimelineViewController_SetPhoto"="Profile picture setting";
+"XTTimelineViewController_Top"="Stick to top";
+"XTTimelineViewController_Read"="Mark as read";
+"XTTimelineViewController_Top_Cancel"="Unstick";
+"XTTimelineViewController_Read_Fail"="Failed to read ";
+"XTTimelineViewController_Top_Fail"="Top failure ";
+"XTTimelineViewController_Meetting"="Voice conference is in progress";
+"XTTimelineViewController_Meet"="Voice conference is in progress";
+//
+/*XTTimelineViewController.m*/
+"KDMoreSearchListViewController_Subscribe"="Subscribe";
+"KDMoreSearchListViewController_Chat_Record"="Chat record";
+/*KDChatMemberViewController.m*/
+"KDChatMemberViewController_members"="Group menbers(%lu)";
+
+/*KDMessageRemoteSettingTableViewCell.m*/
+"KDMessageRemoteSettingTableViewCell_allow_noti"="Please allow notifications";
+
+/*KDMessageRemoteSettingViewController.m*/
+"KDMessageRemoteSettingViewController_message_noti"="Notifacations";
+"KDMessageRemoteSettingViewController_on"="Enabled";
+"KDMessageRemoteSettingViewController_off"="Disabled";
+"KDMessageRemoteSettingViewController_no_disturb_mode"="No disturb mode";
+"KDMessageRemoteSettingViewController_start_time"="Start time";
+"KDMessageRemoteSettingViewController_end_time"="End time";
+"KDMessageRemoteSettingViewController_tip1"="Enable or disable Notifications via \"Setting\"->\"Notifications\" on your iPhone.";
+"KDMessageRemoteSettingViewController_tip2"="After turn-on,system will not accept any reminding message during the setting time period.";
+"KDMessageRemoteSettingViewController_sound"="声音";
+"KDMessageRemoteSettingViewController_vibrate"="振动";
+
+/*KDTimeButton*/
+"KDTimeButton_Skip"="Skip";

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>
+            新浪微博-微博举报
+        </title>
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+        <style>
+            body{ margin:0px; font: 16px normal 'Helvetica Neue',Helvetica,sans-serif;
+            padding: 0; margin: 0; -webkit-text-size-adjust: none; background:#fff;}a{text-decoration:none;}.main{padding-top:10px;}.ck{padding:5px
+            10px;clear:both;text-align:right;overflow:hidden;}.ck a{display:inline-block;width:45%;text-align:left;}.ck
+            a:first-of-type{float:left;}#submit_btn{overflow:auto;padding:5px 10px;clear:both;}
+            .submit{float:none;display:block;width:100%;height:30px;line-height:31px;text-align:center;color:#fff;font-size:14px;
+            font-weight:bold; -webkit-border-radius:5px;border-radius:5px; border:1px
+            solid #67b93e; background:#4ea623; background:-webkit-gradient(linear,0%
+            0%,0% 100%,from(#7eca58),to(#4ea623)); -webkit-box-shadow:0px 2px 0px #85d85
+            inset;box-shadow:0px 2px 0px #85d85 inset; } .reason{width:100%;height:100px;padding:5px;-webkit-border-radius:5px;border-radius:5px;
+            border:1px solid #c9c9c9; -webkit-box-sizing:border-box;box-sizing:border-box;}
+            .tip{ margin:10px 0px; text-align:center; margin:10 0 10px;-webkit-border-radius:3px;border-radius:3px;
+            border-style:solid; border-width:1px; border-color:#fff; background:url(http://u1.sinaimg.cn/upload/h5/img/aybao/rx0111.png)
+            repeat-x 0 -471px;text-shadow:#fff 0px 1px 0px; height:16px;line-height:17px;
+            font-size:12px; color:#994e00;-webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px
+            1px 4px;box-shadow:rgba(0, 0, 0, 0.4) 0px 1px 4px;}.ggd {background: #f8f9fd;padding:
+            10px;text-align: center;color: #369;border: rgba(0, 0, 0, 0.3) solid 3px;font-size:
+            14px;margin: 20px 10px;-webkit-border-radius: 5px;}
+        </style>
+    </head>
+    
+    <body>
+        <div class="main">
+            <form type="post" name="report_form">
+                <div class="ck">
+                    <a>
+                        <input type="radio" name="class_id" checked="checked" value="1" alt="垃圾广告">
+                        垃圾广告
+                    </a>
+                    <a>
+                        <input type="radio" name="class_id" checked="checked" value="2" alt="淫秽色情">
+                        淫秽色情
+                    </a>
+                </div>
+                <div class="ck">
+                    <a>
+                        <input type="radio" name="class_id" checked="checked" value="5" alt="不实信息">
+                        不实信息
+                    </a>
+                    <a>
+                        <input type="radio" name="class_id" checked="checked" value="6" alt="人身攻击">
+                        人身攻击
+                    </a>
+                </div>
+                <div class="ck">
+                    <a>
+                        <input type="radio" name="class_id" checked="checked" value="7" alt="泄露隐私">
+                        泄露隐私
+                    </a>
+                    <a>
+                        <input type="radio" name="class_id" checked="checked" value="8" alt="敏感信息">
+                        敏感信息
+                    </a>
+                </div>
+                <div class="ck">
+                    <a>
+                        <input type="radio" name="class_id" checked="checked" value="9" alt="抄袭信息">
+                        抄袭信息
+                    </a>
+                    <a>
+                        <input type="radio" name="class_id" checked="checked" value="10" alt="冒充他人">
+                        冒充他人
+                    </a>
+                </div>
+                <div class="ck">
+                    <a>
+                        <input type="radio" name="class_id" checked="checked" value="11" alt="骚扰他人">
+                        骚扰他人
+                    </a>
+                    <a>
+                        <input type="radio" name="class_id" checked="checked" value="12" alt="虚假中奖">
+                        虚假中奖
+                    </a>
+                </div>
+                <div class="ck">
+                <textarea placeholder="举报理由" name="content" class="reason" maxlength="280"id="reportReason"></textarea>
+                </div>
+                <div id="submit_btn">
+                    <a href="javascript:void(0)" id="submit_link" class="submit" onclick="reportWb(this);">
+                        提交
+                    </a>
+                </div>
+            </form>
+        </div>
+        <script>
+            var d = document,
+            g = "getElementById",
+            root = "";
+            function reportWb() {
+                var reason = d[g]("reportReason"),
+                reportTxt = Tool.trim(reason.value),
+                submitBtn = d[g]("submit_btn"),
+                wbid = Tool.getQuery("rid"),
+                uid = Tool.getQuery("uid"),
+                cid = "1",
+                ctxt = '';
+                if (!reportTxt) {
+                    Tool.tipinfo(submitBtn, "请填写举报理由！");
+                    return;
+                }
+                 document.location="objc://submit:/"+reportTxt;
+               
+            }
+            var Tool = {
+                tipTime: 0,
+                tipTimeoutArr: [],
+                clearTipTimeout: function() {
+                    if (!Tool.tipTimeoutArr.length) {
+                        return;
+                    }
+                    while (Tool.tipTimeoutArr.length) {
+                        clearTimeout(Tool.tipTimeoutArr[Tool.tipTimeoutArr.length - 1]);
+                        Tool.tipTimeoutArr.pop(Tool.tipTimeoutArr.length - 1);
+                    }
+                },
+                getQuery: function(name, url) {
+                    if (url && url.indexOf('?') > 0) var str = url.split('?')[1];
+                    else var str = window.location.search.substr(1);
+                    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+                    var r = str.match(reg);
+                    if (r != null) return decodeURI(r[2]);
+                    else return false;
+                },
+                req: function(options) {
+                    if (!options) return;
+                    var reqTimeout;
+                    var xmlhttp = Tool.createStandardXHR() || Tool.createActiveXHR();
+                    var type = options.type ? options.type: "get";
+                    xmlhttp.open(type, options.url, options.async ? options.async: true);
+                    if (type != "get") {
+                        xmlhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                    }
+                    xmlhttp.send(options.data ? (type != "get" ? options.data: null) : null);
+                    if (parseInt(options.timeout) > 0) {
+                        reqTimeout = setTimeout(function() {
+                            xmlhttp.abort(); (options.timeoutFunc) && options.timeoutFunc.call(null);
+                        },
+                        parseInt(options.timeout));
+                    }
+                    xmlhttp.onreadystatechange = function() {
+                        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                            reqTimeout && clearTimeout(reqTimeout); (options.sucFunc) && options.sucFunc.call(null, xmlhttp.responseText);
+                        } else if (xmlhttp.status == 400) { (options.errFunc) && options.errFunc.call(null);
+                        }
+                    }
+                },
+                createStandardXHR: function() {
+                    try {
+                        return new window.XMLHttpRequest();
+                    } catch(e) {}
+                },
+                createActiveXHR: function() {
+                    try {
+                        return new window.ActiveXObject("Microsoft.XMLHTTP");
+                    } catch(e) {}
+                },
+                parseJSON: function(str) {
+                    if (window.JSON && window.JSON.parse) {
+                        return window.JSON.parse(str);
+                    } else {
+                        return (new Function("return " + str))();
+                    }
+                },
+                trim: function(str) {
+                    if (!str || !(str instanceof String || typeof str == "string")) return;
+                    var newStr = str.toString();
+                    return newStr.replace(/^[\s\xA0]+/, "").replace(/[\s\xA0]+$/, "");
+                },
+                tipinfo: function(wrap, info, func, type) {
+                    if (!wrap || !info) return;
+                    var tip = document.createElement("div");
+                    tip.setAttribute("class", "tip");
+                    tip.innerHTML = info;
+                    Tool.clearTipTimeout();
+                    if (wrap && wrap.querySelectorAll(".tip").length) {
+                        Tool.each(wrap.querySelectorAll(".tip"),
+                        function(i, n) {
+                            if (wrap && n) {
+                                try {
+                                    wrap.removeChild(n);
+                                } catch(e) {}
+                            }
+                        })
+                    }
+                    if (!type) {
+                        var children = wrap.childNodes,
+                        node;
+                        if (children.length) {
+                            node = children[0];
+                            wrap.insertBefore(tip, node);
+                        } else {
+                            wrap.appendChild(tip);
+                        }
+                    } else {
+                        wrap.appendChild(tip);
+                    }
+                    if (func) {
+                        var timeout = setTimeout(function() {
+                            Tool.fadeOut(tip);
+                        },
+                        800);
+                        Tool.tipTimeoutArr.push(timeout);
+                    }
+                },
+                fadeOut: function(tip, opacity) {
+                    if (!opacity) {
+                        tipTime = 0;
+                    }
+                    if (tip) {
+                        if (tip && tip.style && tip.style.opacity && tip.style.opacity < 0.3) {
+                            if (tip && tip.parentNode) {
+                                tip.parentNode.removeChild(tip);
+                            }
+                            return;
+                        }
+                        tip.style.opacity = opacity ? opacity: 1;
+                        tipTime++;
+                        Tool.clearTipTimeout();
+                        var timeout = setTimeout(function() {
+                            Tool.fadeOut(tip, 1 / tipTime);
+                        },
+                        200);
+                        Tool.tipTimeoutArr.push(timeout);
+                    }
+                },
+                each: function(data, func) {
+                    if (! (data && func instanceof Function)) return;
+                    if (data instanceof Array) {
+                        for (var i = 0; i < data.length; i++) {
+                            func.call(null, i, data[i]);
+                        }
+                    }
+                    if (data instanceof Object) {
+                        for (var k in data) {
+                            func.call(null, k, data[k]);
+                        }
+                    }
+                }
+            }
+        </script>
+    </body>
+
+</html>

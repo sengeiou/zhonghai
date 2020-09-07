@@ -1,0 +1,68 @@
+
+//---------------------第三方应用调用云之家移动端实现单点登录示例代码------------------------------
+
+//--------------Android------------------
+
+	/**
+	 * 打开云之家客户端实现免输入用户名密码的Basic登录。
+	 * 传递参数：userName,password
+	 * @return 成功：会注销已登录的用户，并使用授权码指定的用户登录；失败：弹出相应的提示，并支持回掉到第三方调用页面
+	 * 
+	 * @since 2.2.0
+	 * @author winters_huang@kingdee.com
+	 */
+	public void callKdweiboApplictionUseBasicAuth(){
+    	String packageName =  "com.haier.kdweibo.client";
+    	Intent intent=new Intent(); 
+    	intent.putExtra("url_encode", "true");     //指定参数是否用了编码，编码格UrlEncode(UTF-8)，默认为false
+    	intent.putExtra("auth", "true");          //是否需要登录，默认为false，如果传true，则先注销原有授权再重新登录，不能实现数据缓存
+    	intent.putExtra("source", "haier");       //云之家客户端根据此来源实现专有逻辑，如华为SVN网络初始化
+    	intent.putExtra("user_name", "username"); //Basic 认证的用户名
+    	intent.putExtra("password", "password");  //Basic 认证的密码 
+    	intent.putExtra("svn_server", "10.1.1.1");    //只取该数值，作为SDK的登录地址
+      intent.putExtra("svn_server_backup", "60.1.1.1");//备用地址
+    	intent.putExtra("package_name", "com.huawei.svn.hiwork"); //用于退出微博时，拉起AnyOffice
+   	  intent.putExtra("home_activity", "com.huawei.svn.hiwork.HiWorkActivity"); //用于退出微博时，拉起AnyOffice
+   	  intent.putExtra("svn_params", "");       //备用字段，用于定义SVN隧道和沙箱的模式等参数
+	    intent.putExtra("return_code", "");      //备用字段，可选字段，用于返回参数
+	
+    	intent.setComponent(new ComponentName(packageName, packageName+".activities.ACT_Start")); //云之家的包名和首个Acitivity，通过它打开隐藏的云之家应用
+        startActivity(intent);
+    }
+    
+    
+//--------------iPhone------------------ 
+
+	/**
+	 * 打开云之家客户端实现免输入用户名密码的Basic登录。
+	 * 参数说明：同Android
+	 * @return 成功：会注销已登录的用户，并使用授权码指定的用户登录；失败：弹出相应的提示，并支持回掉到第三方调用页面
+	 * 
+	 * @since 2.2.0
+	 * @author winters_huang@kingdee.com
+	 */
+-
+        NSString *path = [NSString stringWithFormat:@"haierweibo://auth?url_encode=true&source=haier&user_name=%@&password=%@&svn_server=%@&svn_server_backup=%@&svn_params=%@&src_app_scheme=%@&return_code=%@", userName, password, SvnServer,SvnServerBackup,SvnParams,SrcAppScheme,ReturnCode];
+       
+        NSURL *url = [NSURL URLWithString:path];
+        if ([[UIApplication sharedApplication] canOpenURL:url]) {
+            [[UIApplication sharedApplication] openURL:url];
+            
+        } else {
+       		// 增加错误处理 类似下面
+           // NSString *message = [NSString stringWithFormat:@"暂无应用可打开 %@", path];
+           // [self showAlertWithTitle:@"\n" message:message];
+        }
+    }
+} 
+
+-----------------
+
+----------测试用户及IP地址--------------------
+
+SVN网关：
+mobile.haier.net（以后可以用这个域名，但现在域名未生效，可以选择一个IP地址）
+218.58.70.139 联通
+58.56.128.15 电信
+
+----------

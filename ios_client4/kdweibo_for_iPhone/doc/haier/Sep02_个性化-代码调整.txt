@@ -1,0 +1,119 @@
+1. "海尔个性化1）屏蔽导航页与闪屏动画效果" KDWeiboAppDelegate
+- (void)_configureAppUI {
+        //针对海尔
+        //[self showAppIntroViewController:YES];
+        [self showAuthViewController];
+        
+        //万科，允许显示第一页产品导航；
+        [self showAppIntroViewController:NO];
+        //替换类 KDAppTutorialsViewController.m,用
+        //http://192.168.0.22/svn/ssp/branches/branch_3G_iphone_haier_v2.1.1/kdweibo_for_iPhone/Classes/ViewControllers/KDAppTutorialsViewController.m
+
+2. 屏蔽登录注册按钮
+KDAuthViewController.m
+//@synthesize signUpButton=signUpButton_;
+- (void)_setupSignInContentView {
+    
+    
+    // sign up button
+//    self.signUpButton = [self _actionButtonWithTitle:NSLocalizedString(@"SIGN_UP", @"") imageName:@"login_sign_up_v2.png"
+//                                highlightedImageName:@"login_sign_up_pressed_v2.png"];
+//    [signUpButton_ setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    
+    //[self addSubview:signUpButton_]; 
+    
+    
+}
+
+- (void)layoutSubviews {
+    
+    // sign up button 行改为:
+    ...
+    width = (width - 0) * 1;
+    rect = CGRectMake(offsetX, offsetY, width, 40.0);
+//  signUpButton_.frame = rect;
+    
+    // sign in button
+//  rect.origin.x += rect.size.width + 10.0; // spacing is 10.0
+   
+}
+// 针对万科调整：
+    if([message isEqualToString:NSLocalizedString(@"SIGN_IN_DID_FAIL_DETAILS", @"")]) {
+        //alertView = [[UIAlertView alloc] initWithTitle:title message:message delegate:self cancelButtonTitle:NSLocalizedString(@"CANCEL", @"") otherButtonTitles:NSLocalizedString(@"SIGN_IN_RESET_PASSWORD", @""),nil];
+        message = @"请联系邮箱管理员重置您的邮箱密码";
+        alertView = [[UIAlertView alloc] initWithTitle:title message:message delegate:self cancelButtonTitle:NSLocalizedString(@"OKAY", @"") otherButtonTitles:nil];
+
+3. 
+
+4 应用名改为：互动协同
+  查找替换：云之家 --> 协同互动
+  CFBundleDisplayName 改为：协同互动
+  CFBundleName 改为: HaierWeibo
+   
+  Vanke
+  我的小组 --> 微团
+  小组 --> 微团
+  短邮 --> 微言
+  云之家 --> 微V
+  邮箱/手机  --> 邮箱账号（不含后缀）
+  密码 -> 邮箱密码     [注意被替换的[密码 ]带一个空格，超找替换时注意]
+
+  
+
+5 替换品牌图片（注意不能整个目录拷贝覆盖，会丢失目录文件，需要逐个打开目录，拷贝覆盖）
+    Sending        /work2013/code/ios/IOS4Haier/kdweibo_for_iPhone/Default-568h@2x.png
+    Sending        /work2013/code/ios/IOS4Haier/kdweibo_for_iPhone/Default.png
+    Sending        /work2013/code/ios/IOS4Haier/kdweibo_for_iPhone/Default@2x.png
+    Sending        /work2013/code/ios/IOS4Haier/kdweibo_for_iPhone/Images/app_logo_v2.png
+    Sending        /work2013/code/ios/IOS4Haier/kdweibo_for_iPhone/Images/app_logo_v2@2x.png
+    Sending        /work2013/code/ios/IOS4Haier/kdweibo_for_iPhone/Images/app_logo_bc.png    //“关于”、“二维码”
+    Sending        /work2013/code/ios/IOS4Haier/kdweibo_for_iPhone/Images/app_logo_bc@2x.png
+    Sending        /work2013/code/ios/IOS4Haier/kdweibo_for_iPhone/Images/tutorials/568h/tutorials_01-568h@2x.png
+    Sending        /work2013/code/ios/IOS4Haier/kdweibo_for_iPhone/Images/tutorials/tutorials_01.png
+    Sending        /work2013/code/ios/IOS4Haier/kdweibo_for_iPhone/Images/tutorials/tutorials_01@2x.png
+    Sending        /work2013/code/ios/IOS4Haier/kdweibo_for_iPhone/icon.png
+    Sending        /work2013/code/ios/IOS4Haier/kdweibo_for_iPhone/icon@2x.png
+    
+6 替换调用 
+  #scheme,(万科) Settings--> info
+  com.kingdee.vankeweibo
+  vankeweibo, vankeweiboavailable 
+  
+  #SSO
+  #KDThirdPartAppAuthActionHandler
+- (BOOL)isSupportSchema:(NSString *)schema {
+    if (schema == nil || [schema length] < 1) return NO;
+    
+    NSString *temp = [schema lowercaseString];
+    
+    return [@"vankeweibo" isEqualToString:temp]
+    || [@"vankeweibo4ipad" isEqualToString:temp]
+    || [@"vankeweiboavailable" isEqualToString:temp];
+}
+
+
+7 禁止取回密码（步骤2）
+
+8 友盟key KDWeiboAppDelegate
+#define KDWEIBO_UMENG_APP_KEY   @"518c629456240b97170149a2" // the app key for kdweibo for haier‘iPhone in umeng platform
+
+#define KDWEIBO_UMENG_APP_KEY   @"51c31ad456240b16530a8006" // the app key for vanke in umeng platform
+
+9 万科“关于”页面二维码，类：KDAboutViewController
+     将 KDAuthTemplateView.h KDAuthTemplateView.m Duplicute一份，生成：
+     KDAboutTemplateView.h KDAboutTemplateView.m ，修改对应的变量，引用二维码图片：
+     
+     @KDAboutViewController.m
+     - (void) loadView {
+    self.view = [[[UIView alloc] initWithFrame:[UIScreen mainScreen].bounds] autorelease];
+    
+    KDAboutTemplateView *aView = [[KDAboutTemplateView alloc] initWithFrame:self.view.bounds];
+
+10 禁止新功能介绍、
+[self showAppTutorialsViewController]
+    
+
+#Test login Account
+
+v-vvadmin
+111@vk

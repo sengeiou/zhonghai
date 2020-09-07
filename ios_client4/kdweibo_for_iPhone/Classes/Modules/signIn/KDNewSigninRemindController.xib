@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KDNewSigninRemindController">
+            <connections>
+                <outlet property="datePicker" destination="EMv-G9-ORf" id="cwb-IL-Oph"/>
+                <outlet property="deletebtn" destination="Gfc-PR-vTP" id="OUc-dD-jyV"/>
+                <outlet property="repeatTypeLabel" destination="4Ms-qB-TJa" id="A8X-Xb-lFn"/>
+                <outlet property="repeatView" destination="X9J-8X-Zds" id="EEq-Sc-fMN"/>
+                <outlet property="view" destination="iN0-l3-epB" id="wDC-tU-oXX"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <datePicker contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="EMv-G9-ORf">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="162"/>
+                    <date key="date" timeIntervalSinceReferenceDate="463561255.98771399">
+                        <!--2015-09-10 07:00:55 +0000-->
+                    </date>
+                </datePicker>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X9J-8X-Zds">
+                    <rect key="frame" x="0.0" y="170" width="375" height="44"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="重复周期" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tHe-J3-WnZ">
+                            <rect key="frame" x="12" y="11" width="77" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="9wh-2V-YnI"/>
+                                <constraint firstAttribute="width" constant="77" id="UNh-lD-PXl"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cell_arrow" translatesAutoresizingMaskIntoConstraints="NO" id="Z3P-un-P5V">
+                            <rect key="frame" x="356" y="15" width="7" height="13"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="7" id="dzQ-0u-zYO"/>
+                                <constraint firstAttribute="height" constant="13" id="vRR-aS-98q"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="工作日" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ms-qB-TJa">
+                            <rect key="frame" x="88" y="11" width="260" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="centerY" secondItem="Z3P-un-P5V" secondAttribute="centerY" constant="0.5" id="0fD-8z-Xm9"/>
+                        <constraint firstAttribute="centerY" secondItem="4Ms-qB-TJa" secondAttribute="centerY" constant="0.5" id="4Zt-r4-NLn"/>
+                        <constraint firstAttribute="trailing" secondItem="Z3P-un-P5V" secondAttribute="trailing" constant="12" id="9Cg-hh-6l1"/>
+                        <constraint firstAttribute="centerY" secondItem="tHe-J3-WnZ" secondAttribute="centerY" constant="0.5" id="FOf-k8-b6s"/>
+                        <constraint firstItem="4Ms-qB-TJa" firstAttribute="leading" secondItem="tHe-J3-WnZ" secondAttribute="trailing" constant="-1" id="n6H-3r-asZ"/>
+                        <constraint firstAttribute="height" constant="44" id="oAO-w7-eiC"/>
+                        <constraint firstItem="Z3P-un-P5V" firstAttribute="leading" secondItem="4Ms-qB-TJa" secondAttribute="trailing" constant="8" id="owY-ml-LIf"/>
+                        <constraint firstItem="tHe-J3-WnZ" firstAttribute="leading" secondItem="X9J-8X-Zds" secondAttribute="leading" constant="12" id="yDD-zZ-CQ9"/>
+                        <constraint firstAttribute="width" constant="375" id="zfM-NZ-tsY"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="zfM-NZ-tsY"/>
+                        </mask>
+                    </variation>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gfc-PR-vTP">
+                    <rect key="frame" x="0.0" y="239" width="375" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="9BV-tV-U2Q"/>
+                    </constraints>
+                    <state key="normal" title="删除提醒">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="whenDeleteBtnClicked:" destination="-1" eventType="touchUpInside" id="MVy-wz-jDp"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Gfc-PR-vTP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="62B-0s-WHg"/>
+                <constraint firstAttribute="trailing" secondItem="X9J-8X-Zds" secondAttribute="trailing" id="6hq-c0-dbJ"/>
+                <constraint firstAttribute="trailing" secondItem="EMv-G9-ORf" secondAttribute="trailing" id="9e7-vQ-hdT"/>
+                <constraint firstItem="EMv-G9-ORf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="APa-5n-X1I"/>
+                <constraint firstItem="X9J-8X-Zds" firstAttribute="top" secondItem="EMv-G9-ORf" secondAttribute="bottom" constant="8" id="FqS-yw-xIW"/>
+                <constraint firstAttribute="trailing" secondItem="Gfc-PR-vTP" secondAttribute="trailing" id="GsJ-w9-ahN"/>
+                <constraint firstItem="Gfc-PR-vTP" firstAttribute="top" secondItem="X9J-8X-Zds" secondAttribute="bottom" constant="25" id="S8x-hf-WP3"/>
+                <constraint firstAttribute="centerX" secondItem="EMv-G9-ORf" secondAttribute="centerX" id="Yhp-g9-BOl"/>
+                <constraint firstItem="EMv-G9-ORf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ZOd-Zu-gUd"/>
+                <constraint firstItem="X9J-8X-Zds" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="w7F-nn-dtp"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="505.5" y="435.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cell_arrow" width="7" height="13"/>
+    </resources>
+</document>

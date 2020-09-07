@@ -1,0 +1,233 @@
+1. 如何自定义 UITabBarController (更正确的说是 UITabBarController 中的UITabBar)
+
+问题: 我们是要自定义 UITabBarController 还是自定义 UITabBar?
+大部分的时候我们只想自定义 UITabBar，除非重新设计框架，提供类似 UITabBarController 完全实现。
+该解决方案只针对要自定义 UITabBar 有效
+
+背景: UITabBarController（iOS v5.1） 内部已经实现的方法
+
+methods[0]:[defaultFirstResponder]
+methods[1]:[animationDidStop:finished:context:]
+
+methods[2]:[_transitionView]
+methods[3]:[transitionViewDidComplete:fromView:toView:]
+
+methods[4]:[shouldAutorotateToInterfaceOrientation:]
+
+methods[5]:[_isPresentationContextByDefault]
+
+methods[6]:[initWithNibName:bundle:]
+
+methods[7]:[_shouldPersistViewWhenCoding]
+methods[8]:[_populateArchivedChildViewControllers:]
+
+methods[9]:[loadView]
+methods[10]:[_updateLayoutForStatusBarAndInterfaceOrientation]
+
+methods[11]:[viewWillAppear:]
+methods[12]:[viewDidAppear:]
+methods[13]:[viewWillDisappear:]
+methods[14]:[viewDidDisappear:]
+
+methods[15]:[purgeMemoryForReason:]
+
+methods[16]:[_reallyWantsFullScreenLayout]
+methods[17]:[_isSupportedInterfaceOrientation:]
+methods[18]:[_allowsAutorotation]
+methods[19]:[rotatingHeaderView]
+methods[20]:[rotatingFooterView]
+methods[21]:[willRotateToInterfaceOrientation:duration:]
+methods[22]:[_shouldUseOnePartRotation]
+methods[23]:[willAnimateRotationToInterfaceOrientation:duration:]
+methods[24]:[willAnimateFirstHalfOfRotationToInterfaceOrientation:duration:]
+methods[25]:[willAnimateSecondHalfOfRotationFromInterfaceOrientation:duration:]
+methods[26]:[_getRotationContentSettings:]
+methods[27]:[didAnimateFirstHalfOfRotationToInterfaceOrientation:]
+methods[28]:[didRotateFromInterfaceOrientation:]
+
+methods[29]:[updateTabBarItemForViewController:]
+methods[30]:[setViewControllers:animated:]
+methods[31]:[_layoutViewController:]
+methods[32]:[_frameForViewController:]
+
+methods[33]:[_selectedViewControllerInTabBar]
+methods[34]:[hideBarWithTransition:]
+methods[35]:[tabBar]
+methods[36]:[showBarWithTransition:]
+
+methods[37]:[viewControllers]
+methods[38]:[setViewControllers:]
+methods[39]:[__viewWillLayoutSubviews]
+methods[40]:[selectedViewController]
+methods[41]:[setSelectedViewController:]
+
+methods[42]:[_rebuildTabBarItemsIfNeeded]
+methods[43]:[_selectDefaultViewControllerIfNecessaryWithAppearanceTransitions:]
+
+methods[44]:[_prepareTabBar]
+methods[45]:[_rebuildTabBarItemsAnimated:]
+
+methods[46]:[_setSelectedTabBarItem:]
+methods[47]:[_tabBarItemClicked:]
+methods[48]:[_configureTargetActionForTabBarItem:]
+methods[49]:[moreNavigationController]
+methods[50]:[transientViewController]
+methods[51]:[setTransientViewController:animated:]
+methods[52]:[selectedIndex]
+methods[53]:[_viewControllersInTabBar]
+methods[54]:[_existingMoreNavigationController]
+methods[55]:[setSelectedIndex:]
+methods[56]:[setCustomizableViewControllers:]
+methods[57]:[_allowSelectionWithinMoreList]
+methods[58]:[setTransientViewController:]
+methods[59]:[_setSelectedViewController:]
+methods[60]:[allViewControllers]
+
+methods[61]:[transitionFromViewController:toViewController:]
+methods[62]:[customizableViewControllers]
+methods[63]:[_allowsCustomizing]
+methods[64]:[_viewControllerForTabBarItem:]
+methods[65]:[concealTabBarSelection]
+methods[66]:[transitionFromViewController:toViewController:transition:shouldSetSelected:]
+methods[67]:[revealTabBarSelection]
+
+methods[68]:[_doAllViewControllersSupportInterfaceOrientation:]
+
+methods[69]:[tabBar:willBeginCustomizingItems:]
+methods[70]:[tabBar:willEndCustomizingItems:changed:]
+methods[71]:[tabBar:didEndCustomizingItems:changed:]
+
+methods[72]:[setTabBar:]
+methods[73]:[beginCustomizingTabBar:]
+methods[74]:[_isBarHidden]
+methods[75]:[setShowsEditButtonOnLeft:]
+methods[76]:[showsEditButtonOnLeft]
+methods[77]:[_setMaximumNumberOfItems:]
+methods[78]:[moreChildViewControllers]
+methods[79]:[setMoreChildViewControllers:]
+
+methods[80]:[dealloc]
+
+methods[81]:[initWithCoder:]
+methods[82]:[encodeWithCoder:]
+methods[83]:[setDelegate:]
+methods[84]:[delegate]
+
+可见有 85 个方法之多，所以自定义实现类似 UITabBarController 的类有一定的复杂性。
+
+参考解决方法：(******)
+
+原本计划想尝试重新设计开发一个 TabBarController。
+开始这项任务之前，考察目前在 github 等网络上已经开源的 TabBarController 功能和设计都显得过于简单，仅仅只是能用而已。
+跟 UIKit 原生的 UITabBarController 相比显得过于简单。并未处理相关的事件传递。
+现在使用一种最简单的设计思想（保留 UITabBarController 的所有功能，然后隐藏原生的 UITabBar, 把自定义 Tab bar 增加到原生 view的堆栈上）
+通过调用 setSelectedIndex: 方法来驱动 UITabBarController
+这样的好处在于规避了重新设计类似 UITabBarController 类的复杂度。
+
+
+////////////////////////////////////////////////////////////////////////////////////////////
+
+2. UITabBarController 可能出现黑屏（空屏幕）
+
+问题: 当在某个 tab 对应的 view controller 上调用 presentModalViewController:mailComposeViewController 
+     然后调用 dismissModalViewControllerAnimated: 返回到 UITabBarController 可能出现黑屏。
+     
+     eg: timeline -> weibo status detail(with image) -> photo gallery 
+         -> mail compose(received memory warning, iOS Simulator -> Hardware -> Simulate memory warning)
+         -> back to timeline view controller will display as black screen.
+         
+         
+解决方法:
+    在自定义的 UITabBarController 的子类中 覆盖 viewWillAppear: 方法。
+    可以判断当前选中 tab 对应的 view controller 的 view 的 superview 属性是否为 nil.
+    如果为nil. 通过改变 UITabBarController 的 selectedIndex 或者 selectedViewController 
+    使得当前选中tab 对应的 view controller 重新显示的界面
+
+eg: KDMainTabBarController.m
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+
+    if (mainTabBarControllerFlags_.viewDidUnload == 1) {
+        mainTabBarControllerFlags_.viewDidUnload = 0;
+
+        UIViewController *vc = [(KDNavigationController *)self.selectedViewController topViewController];
+        if (vc.view.superview == nil) {
+            NSUInteger selectedIndex = self.selectedIndex;
+            
+            // there is a fake view controller at index of 2
+            self.selectedIndex = 0x02;
+            self.selectedIndex = selectedIndex;
+        }
+    }
+}
+         
+
+////////////////////////////////////////////////////////////////////////////////////////////
+
+3. 开发调试小技巧（结合第三方统计代码导致很难调试的问题 调试篇）
+
+问题:
+    有的时候为了收集应用的各项统计信息，会在项目中引入第三方的统计库。
+    拿当前的iPhone工程来说，使用了 UMeng 的统计库。这些库往往是程序一启动就激活了，这些库为了捕获到程序出错的异常信息，
+    往往会注册底层的信号方法.
+    比如: signal(SIGABRT, CustomHandler); 
+    
+    这样导致在开发过程中，如果出现错误，异常信号被第三方的库捕获了，当这些库处理完了对应的信息，可能会再次抛出一样的异常或者中断应用，
+    导致当前的调用堆栈破坏了，Xcode自身的debug工具不能捕获足够的错误信息。Xcode控制台显示的错误信息变的相当的少，
+    甚至不能准确的定位错误。导致调试相当的费劲。
+    
+    
+解决方法:
+    可在开发的过程中把第三方的统计代码禁用掉。注释代码或者条件编译。
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////
+
+4. 子 view 超出 superview (bounds) 将接收不到手势事件
+
+问题:
+    有的时候调用 addSubview: 方法增加 view(v1) 并且这个 view(v1) 的显示超出了 superview (bounds)，将导致 v1
+    接收不到手势事件。
+    
+    eg:
+    
+    container view(cv) (frame{0.0, 0.0, 100.0, 100.0}, bounds{0.0, 0.0, 100.0, 100.0})
+        |
+        |---> other views...
+        |
+        |---> beyond view(bv)  (frame{0.0, -20.0, 100.0, 20.0}, bounds{0.0, 0.0, 20.0, 20.0})
+                    |
+                    |---> UIButton(b1)
+                    |
+                    |---> other views...
+
+    
+    * UIButton 将接收不到的任何的点击事件，bv 同样接收不到任何手势事件。
+    * 原因是因为 UIView 不会将事件传送到超出它自身显示范围的 subview
+    
+    * 同样，如果 subview (hidden, disabled user interactions, alpha level less than 0.01) 同样接收不到手势事件。
+
+解决方法:
+    覆盖 
+    - (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event 方法。
+    
+    如上述例子中在 container view(cv) 提供自定义的实现。
+    
+eg:
+    
+- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
+    UIView *v = [super hitTest:point withEvent:event];
+    if (v == nil) {
+        CGPoint tp = [bv.btn convertPoint:point fromView:self];
+        if (CGRectContainsPoint(bv.btn.bounds, tp)) {
+            v = bv.btn;
+        }
+    }
+    
+    return v;
+}
+    
+
+

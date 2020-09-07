@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>kdweibo.pref.debug</key>
+	<true/>
+	<key>kdweibo.pref.baseDatabaseUserVersion</key>
+	<real>42207</real>
+	<key>kdweibo.pref.includeExtraHttpHeadersEnabled</key>
+	<true/>
+	<key>kdweibo.pref.serverBaseURL</key>
+	<string>http://wbtest.msbu.kingdee.com</string>
+	<key>kdweibo.pref.restBaseURL</key>
+	<string>http://wbtest.msbu.kingdee.com/snsapi</string>
+	<key>kdweibo.pref.httpConnectionTimeout</key>
+	<integer>30</integer>
+	<key>kdweibo.pref.httpRetryCount</key>
+	<integer>0</integer>
+	<key>kdweibo.pref.httpRetryIntervalSeconds</key>
+	<integer>5</integer>
+	<key>kdweibo.pref.maxTotalConnections</key>
+	<integer>20</integer>
+	<key>kdweibo.pref.oAuthRequestTokenURL</key>
+	<string></string>
+	<key>kdweibo.pref.oAuthAuthorizationURL</key>
+	<string></string>
+	<key>kdweibo.pref.oAuthAccessTokenURL</key>
+	<string></string>
+	<key>kdweibo.pref.local.development.restBaseURL</key>
+	<string>https://172.20.137.53:8080/snsapi</string>
+	<key>kdweibo.pref.local.development.serverBaseURL</key>
+	<string>https://172.20.137.53:8080</string>
+	<key>kdweibo.pref.useLocalURL</key>
+	<false/>
+	<key>kdweibo.pref.lastBuildDate</key>
+	<real>20140930</real>
+	<key>kdweibo.pref.hasAppTutorials</key>
+	<true/>
+	<key>kdweibo.pref.newFunctions</key>
+	<array>
+		<string>contacts</string>
+	</array>
+</dict>
+</plist>
